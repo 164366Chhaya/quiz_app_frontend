@@ -12,7 +12,7 @@ export default function LoginPage() {
       <div className="login-card">
         <h1>🎯 Let's Quiz It</h1>
         <p>SSC CGL Preparation Quiz App</p>
-        <a href={`${import.meta.env.VITE_API_BASE_URL?.replace('/api', '')}/oauth2/authorization/google`}>
+        <a href={`${process.env.REACT_APP_API_BASE_URL?.replace('/api', '')}/oauth2/authorization/google`}>
           <button className="google-btn">
             🔐 Login with Google
           </button>
