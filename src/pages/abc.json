@@ -1,0 +1,2423 @@
+[{
+    
+    "topic": "Algebra",    
+    "question_text": "Find the value of Y, if X − 2Y + 2Z = 16, X − Y + Z = 9 and 2X − 3Y − Z = 9.",
+    "option_a": "2",
+    "option_b": "-3",
+    "option_c": "-4",
+    "option_d": "4",
+    "correct_option": "B",
+    "solution_text": "Solving the three equations simultaneously: From eq2: X = 9 + Y - Z. Substituting into eq1 and eq3 and solving, Y = -3.",
+    "hint_text": "Use substitution or elimination method. Start by subtracting Eq2 from Eq1 to eliminate one variable."
+},
+{
+    
+    "topics": ["Simplification","Surds & Indices"],    
+    "question_text": "(a^7 × b^8 × c^7) / (a^9 × b^5 × c^4) in simplified form is:",
+    "option_a": "(a^0) × (b^2) × (c^1)",
+    "option_b": "(a^-7) × (b^2) × (c^-4)",
+    "option_c": "(a^-2) × (b^3) × (c^3)",
+    "option_d": "(a^-5) × (b^-8) × (c^0)",
+    "correct_option": "C",
+    "solution_text": "Subtract exponents: a^(7-9) = a^-2, b^(8-5) = b^3, c^(7-4) = c^3. Answer = a^-2 × b^3 × c^3.",
+    "hint_text": "When dividing same bases, subtract the exponents: a^m / a^n = a^(m-n)."
+},
+{
+    
+    "topic": "Profit & Loss",
+    
+    "question_text": "A man buys 10 identical articles for a total of ₹15. If he sells each of them for ₹1.7, then his profit percentage will be ______% (rounded off to two decimal places).",
+    "option_a": "14.33",
+    "option_b": "12.76",
+    "option_c": "13.33",
+    "option_d": "11.76",
+    "correct_option": "C",
+    "solution_text": "CP per article = 15/10 = ₹1.5. SP = ₹1.7. Profit% = (1.7-1.5)/1.5 × 100 = 0.2/1.5 × 100 = 13.33%.",
+    "hint_text": "First find Cost Price per article. Then use Profit% = (SP - CP)/CP × 100."
+},
+{
+    
+    "topic": "Time & Work",
+    
+    "question_text": "Rani and Adya, working separately, can finish a task in 12 days and 16 days, respectively. They work in stretches of one day alternately. If Rani starts working first, then the task will be completed in:",
+    "option_a": "12 and 1/3 days",
+    "option_b": "13 and 2/3 days",
+    "option_c": "13 and 1/3 days",
+    "option_d": "12 and 2/3 days",
+    "correct_option": "B",
+    "solution_text": "Rani's 1 day work = 1/12. Adya's 1 day work = 1/16. In 2 days combined = 1/12 + 1/16 = 7/48. In 13 pairs (26 days) work done = 13 × 7/48 = 91/48 > 1. Check at day 13: after 12 days work = 6×7/48 = 42/48 = 7/8. Remaining = 1/8. Day 13 is Rani's: 1/8 ÷ 1/12 = 12/8 = 2/3 day. Total = 13 + 2/3 days.",
+    "hint_text": "Find work done in each 2-day cycle. Keep adding until you approach 1 (total work). Then find the fraction of the last day needed."
+},
+{
+    
+    "topic": "Trigonometry",
+    
+    "question_text": "If tan(x+y)tan(x−y) = 1, then find the value of tan x.",
+    "option_a": "√3",
+    "option_b": "1/√3",
+    "option_c": "1",
+    "option_d": "1/(2√3)",
+    "correct_option": "C",
+    "solution_text": "tan(x+y)·tan(x-y) = 1 means tan(x+y) = cot(x-y) = tan(90°-(x-y)). So x+y = 90°-(x-y), giving 2x = 90°, x = 45°. tan 45° = 1.",
+    "hint_text": "If tan(A)·tan(B) = 1, then tan(A) = cot(B), which means A + B = 90°. Use this to find x."
+},
+{
+    
+    "topic": "Simple Interest",
+    
+    "question_text": "Find the simple interest (in ₹) on ₹2000 at 6.5% per annum rate of interest for the period from 14 February 2023 to 28 April 2023.",
+    "option_a": "24",
+    "option_b": "27",
+    "option_c": "26",
+    "option_d": "25",
+    "correct_option": "C",
+    "solution_text": "Days: Feb 14 to 28 = 14 days, March = 31 days, April 1 to 28 = 28 days. Total = 73 days = 73/365 years. SI = 2000 × 6.5/100 × 73/365 = 2000 × 0.065 × 0.2 = ₹26.",
+    "hint_text": "Count days carefully month by month. Remember: start date is excluded, end date is included in SSC convention. Then apply SI = P×R×T/100."
+},
+{
+    
+    "topic": "Probability",
+    
+    "question_text": "Let A and B be two players who are playing the game to hit the target. The probabilities of hitting the target by A and B are 2/3 and 3/4, respectively. What is the probability that exactly one of them hits the target?",
+    "option_a": "7/12",
+    "option_b": "1/4",
+    "option_c": "1/12",
+    "option_d": "5/12",
+    "correct_option": "D",
+    "solution_text": "P(exactly one hits) = P(A hits)×P(B misses) + P(A misses)×P(B hits) = (2/3)(1/4) + (1/3)(3/4) = 2/12 + 3/12 = 5/12.",
+    "hint_text": "Exactly one hits means: A hits AND B misses, OR A misses AND B hits. Add both probabilities."
+},
+{
+    
+    "topic": "Compound Interest",
+    
+    "question_text": "The population of a place increased to 50,000 from 2016 to 2018 at the rate of 6% per annum, and continued the same trend for the next 3 years. If A is the population in 2016 and B is the population in 2020, both are approximated to the next possible integers, then the value of B − A is:",
+    "option_a": "11680",
+    "option_b": "16270",
+    "option_c": "13220",
+    "option_d": "12850",
+    "correct_option": "A",
+    "solution_text": "2016 to 2018 = 2 years. 50000 = A(1.06)^2. A = 50000/1.1236 ≈ 44499 ≈ 44500. B = population in 2020 = 50000×(1.06)^2 = 50000×1.1236 = 56180. B - A = 56180 - 44500 = 11680.",
+    "hint_text": "Work backwards to find A (2016 population). Then use CI formula forward to find B (2020 = 2 years after 2018). Then subtract."
+},
+{
+    
+    "topics": ["Statistics", "Median"],
+    
+    "question_text": "Find the median of the following data (Rounded off to 2 decimal places): Class interval: 0-5, 5-10, 10-15, 15-20, 20-25, 25-30, 30-35. Frequency: 3, 5, 4, 2, 7, 6, 5.",
+    "option_a": "21.43",
+    "option_b": "23.40",
+    "option_c": "20.53",
+    "option_d": "18.64",
+    "correct_option": "A",
+    "solution_text": "Total frequency N = 32. N/2 = 16. CF: 3, 8, 12, 14, 21. Median class = 20-25 (CF first exceeds 16). Median = 20 + [(16-14)/7] × 5 = 20 + (2/7)×5 = 20 + 1.43 = 21.43.",
+    "hint_text": "Step 1: Find N/2. Step 2: Build cumulative frequency. Step 3: Find median class where CF first >= N/2. Step 4: Apply formula: M = L + [(N/2 - CF)/f] × h."
+},
+{
+    
+    "topics": ["Statistics", "Mode"],
+    
+    "question_text": "Using empirical formula, calculate the mode for the following data: 17, 20, 21, 18, 25, 28, 24, 22, 16, 24, 25, 24.",
+    "option_a": "25.8",
+    "option_b": "32",
+    "option_c": "25",
+    "option_d": "30.6",
+    "correct_option": "C",
+    "solution_text": "Empirical formula: Mode = 3×Median - 2×Mean. Mean = (17+20+21+18+25+28+24+22+16+24+25+24)/12 = 264/12 = 22. Arranged: 16,17,18,20,21,22,24,24,24,25,25,28. Median = (22+24)/2 = 23. Mode = 3×23 - 2×22 = 69-44 = 25.",
+    "hint_text": "Empirical formula: Mode = 3×Median - 2×Mean. First arrange data and find median, then find mean."
+},
+{
+    
+    "topic": "Discount",
+    
+    "question_text": "On the occasion of Republic Day, a retail store offers a scheme where customers can avail a discount of 26% on their total purchase. If Manish buys items worth ₹2,050, how much money (in ₹) will he save through the scheme discount?",
+    "option_a": "533",
+    "option_b": "544",
+    "option_c": "522",
+    "option_d": "511",
+    "correct_option": "A",
+    "solution_text": "Discount = 26% of 2050 = 26/100 × 2050 = 533.",
+    "hint_text": "Discount = Discount% × Marked Price / 100. Direct calculation."
+},
+{
+    
+    "topics": ["Geometry", "Circle"],
+    
+    "question_text": "△ABC is inscribed in a circle with centre O. If AB = 21 cm, BC = 20 cm and AC = 29 cm, then what is the length of the circumradius of the triangle?",
+    "option_a": "32.5 cm",
+    "option_b": "13.5 cm",
+    "option_c": "21.5 cm",
+    "option_d": "14.5 cm",
+    "correct_option": "D",
+    "solution_text": "Check if it's a right triangle: 21² + 20² = 441 + 400 = 841 = 29². Yes! Right angled at B. For a right triangle, circumradius R = Hypotenuse/2 = 29/2 = 14.5 cm.",
+    "hint_text": "First check: is it a right triangle? (use Pythagoras). If yes, circumradius = hypotenuse/2. This is a KEY shortcut!"
+},
+{
+    
+    "topics": ["Simplification", "BODMAS"],
+    
+    "question_text": "The value of 4³ − 0² + (22/2)² − 8 + 7×6 = ?",
+    "option_a": "224",
+    "option_b": "229",
+    "option_c": "219",
+    "option_d": "218",
+    "correct_option": "C",
+    "solution_text": "4³ = 64, 0² = 0, (22/2)² = 11² = 121, 7×6 = 42. Total = 64 - 0 + 121 - 8 + 42 = 219.",
+    "hint_text": "Apply BODMAS strictly. Calculate each term separately then combine."
+},
+{
+    
+    "topic": "Ratio & Proportion",
+    
+    "question_text": "A sum of money is to be distributed among 3 friends P, Q and R in the proportion of 5:3:4. If P gets ₹1,500 more than R, what is Q's share?",
+    "option_a": "₹4,950",
+    "option_b": "₹4,680",
+    "option_c": "₹5,100",
+    "option_d": "₹4,500",
+    "correct_option": "D",
+    "solution_text": "P:Q:R = 5:3:4. P - R = (5-4) = 1 part = ₹1500. So 1 part = ₹1500. Q's share = 3 parts = 3 × 1500 = ₹4500.",
+    "hint_text": "Find the difference in ratio parts between P and R. That difference corresponds to ₹1500. Then find Q's parts."
+},
+{
+    
+    "topic": "Average",
+    
+    "question_text": "The average of first 91 even numbers is:",
+    "option_a": "92",
+    "option_b": "90",
+    "option_c": "91",
+    "option_d": "93",
+    "correct_option": "A",
+    "solution_text": "First 91 even numbers: 2, 4, 6, ... 182. Average = (first + last)/2 = (2 + 182)/2 = 184/2 = 92.",
+    "hint_text": "Average of first n even numbers = n+1. For n=91, average = 92. Memory trick: Average of first n even numbers is always (n+1)!"
+},
+{
+    
+    "topic": "Problems on Ages",
+    
+    "question_text": "If the average age of three persons is 56 years and their ages are in the ratio 2:5:7, then find the age of the youngest person.",
+    "option_a": "20 years",
+    "option_b": "22 years",
+    "option_c": "24 years",
+    "option_d": "26 years",
+    "correct_option": "C",
+    "solution_text": "Sum of ages = 3 × 56 = 168. Sum of ratio = 2+5+7 = 14. Youngest (ratio 2) = 2/14 × 168 = 24 years.",
+    "hint_text": "Total sum = Average × Count. Then use ratio to find the youngest's share."
+},
+{
+    
+    "topics": ["Geometry", "Similar Triangles"],
+    
+    "question_text": "If the areas of two similar triangles are in the ratio 121:225, what would be the ratio of the corresponding sides?",
+    "option_a": "9:11",
+    "option_b": "11:15",
+    "option_c": "15:13",
+    "option_d": "11:13",
+    "correct_option": "B",
+    "solution_text": "Ratio of areas = (ratio of sides)². So ratio of sides = √(121/225) = 11/15.",
+    "hint_text": "KEY RULE: For similar triangles, Area ratio = (Side ratio)². So Side ratio = √(Area ratio). Take square root!"
+},
+{
+    
+    "topics": ["Mensuration", "3D"],
+    
+    "question_text": "A toy is in the form of a cone mounted on a hemisphere. The radius of the hemisphere and that of the cone is 36 cm and height of the cone is 105 cm. The total surface area (in cm²) of the toy is:",
+    "option_a": "6588π",
+    "option_b": "5240π",
+    "option_c": "6025π",
+    "option_d": "5799π",
+    "correct_option": "A",
+    "solution_text": "Slant height of cone l = √(r² + h²) = √(36² + 105²) = √(1296+11025) = √12321 = 111. TSA = Curved surface of cone + Curved surface of hemisphere = πrl + 2πr² = π×36×111 + 2π×36² = 3996π + 2592π = 6588π.",
+    "hint_text": "TSA of combined solid = curved surface of cone + curved surface of hemisphere (base circle is internal, not counted). First find slant height l = √(r²+h²)."
+},
+{
+    
+    "topic": "Problems on Ages",
+    
+    "question_text": "Anil and Beena are friends, and the difference between their ages is 5 years. Anil's father Dinesh is three times as old as Anil, and Beena is twice as old as her sister Charu. The ages of Dinesh and Charu differ by 45 years. If Beena is older than Anil, then find the sum of the present ages of both Dinesh and Charu.",
+    "option_a": "78 years",
+    "option_b": "69 years",
+    "option_c": "91 years",
+    "option_d": "100 years",
+    "correct_option": "B",
+    "solution_text": "Let Anil = a, Beena = a+5, Dinesh = 3a, Charu = (a+5)/2. Dinesh - Charu = 3a - (a+5)/2 = 45. (6a - a - 5)/2 = 45. 5a - 5 = 90. 5a = 95. a = 19. Dinesh = 57, Charu = 12. Sum = 57 + 12 = 69.",
+    "hint_text": "Set Anil's age as 'a'. Write all others in terms of 'a'. Use the Dinesh-Charu difference = 45 to solve."
+},
+{
+    
+    "topics": ["Circular Race", "Time Speed Distance"],
+    
+    "question_text": "On a 2200 m long circular track, Sarita and Kavita drove their cycles from the same point but in opposite directions with the speeds 20 km/hr and 16 km/hr, respectively. After how much time will they meet again for the first time?",
+    "option_a": "2 minutes 20 seconds",
+    "option_b": "3 minutes 20 seconds",
+    "option_c": "2 minutes 50 seconds",
+    "option_d": "3 minutes 40 seconds",
+    "correct_option": "B",
+    "solution_text": "Opposite directions: relative speed = 20+16 = 36 km/hr = 36000 m/hr = 600 m/min. Time = 2200/600 = 11/3 min = 3 min 20 sec.",
+    "hint_text": "Opposite directions on circular track: add speeds. Time to meet = Track length / Relative speed. Convert units carefully!"
+},
+{
+    
+    "topic": "Mixture & Alligation",
+    
+    "question_text": "Vessel A contains milk and water in the ratio 4:5. Vessel B contains milk and water in the ratio 2:1. If x litres mixture of A is mixed with y litres mixture of B, then the ratio of milk to water in the mixture becomes 8:5. Find the ratio x:y.",
+    "option_a": "3:10",
+    "option_b": "5:6",
+    "option_c": "2:5",
+    "option_d": "3:4",
+    "correct_option": "A",
+    "solution_text": "Milk fraction in A = 4/9, in B = 2/3. Final milk fraction = 8/13. By alligation: (2/3 - 8/13):(8/13 - 4/9) = (26-24)/(39) : (72-52)/(117) = 2/39 : 20/117 = 6:20 = 3:10. So x:y = 3:10.",
+    "hint_text": "Use alligation: ratio = (fraction in B - final fraction):(final fraction - fraction in A). Find milk fractions for each vessel first."
+},
+{
+    
+    "topics": ["Mensuration", "Cone", "Volume"],
+    
+    "question_text": "Find the volume (in cm³, rounded off to 2 decimal places) of a right circular cone of diameter 12 cm and height 5 cm. [Use π = 22/7]",
+    "option_a": "188.57",
+    "option_b": "197.25",
+    "option_c": "147.23",
+    "option_d": "156.39",
+    "correct_option": "A",
+    "solution_text": "r = 6 cm, h = 5 cm. V = (1/3)πr²h = (1/3)×(22/7)×36×5 = (1/3)×(22×36×5)/7 = (3960/21) = 188.57 cm³.",
+    "hint_text": "Volume of cone = (1/3)πr²h. Note: diameter given, so r = d/2."
+},
+{
+    
+    "topics": ["Mensuration", "Cone"],
+    
+    "question_text": "The height of a right circular cone is 63 cm and the area of its curved surface is five times the area of its base. What is the volume (in cm³) of the cone? (Use π = 22/7)",
+    "option_a": "12589.10",
+    "option_b": "13540.25",
+    "option_c": "11234.65",
+    "option_d": "10914.75",
+    "correct_option": "D",
+    "solution_text": "CSA = πrl, Base area = πr². πrl = 5πr², so l = 5r. Also l² = r² + h² = r² + 63². (5r)² = r² + 3969. 25r² - r² = 3969. 24r² = 3969. r² = 165.375. r = √165.375 ≈ 12.86. V = (1/3)πr²h = (1/3)×(22/7)×165.375×63 = 10914.75.",
+    "hint_text": "CSA = 5 × Base means πrl = 5πr², which gives l = 5r. Then use l² = r² + h² to find r. Then find volume."
+},
+{
+    
+    "topics": ["Simplification", "Surds"],
+    
+    "question_text": "∛6859 / ⁴√1296 × 3/57 × 42 = ?",
+    "option_a": "7",
+    "option_b": "16",
+    "option_c": "-3",
+    "option_d": "17",
+    "correct_option": "A",
+    "solution_text": "∛6859 = 19 (since 19³ = 6859). ⁴√1296 = 6 (since 6⁴ = 1296). = 19/6 × 3/57 × 42 = 19/6 × 1/19 × 42 = 42/6 = 7.",
+    "hint_text": "Recognize perfect cubes and 4th powers: 19³=6859, 6⁴=1296. Memorising these helps a lot in exams!"
+},
+{
+    
+    "topics": ["Geometry", "Triangle"],
+    
+    "question_text": "In a triangle HJK, HJ = HK. G is a point on HJ such that HG = GK = JK. What is the degree measure of two-third of (∠HGK + ∠GKJ)?",
+    "option_a": "96°",
+    "option_b": "136°",
+    "option_c": "84°",
+    "option_d": "90°",
+    "correct_option": "A",
+    "solution_text": "Let ∠JKH = ∠HJK = x (isoceles). HG=GK means △HGK is isoceles. GK=JK means △GKJ is isoceles. Let ∠GHK = θ. Working through angle relationships: ∠HGK = 180-2θ... After full derivation, ∠HGK + ∠GKJ = 144°. 2/3 of 144 = 96°.",
+    "hint_text": "Use isoceles triangle properties repeatedly. Let base angle = x and work through each triangle systematically."
+},
+{
+    
+    "topics": ["Algebra", "Expansion"],
+    
+    "question_text": "Simplify (5z − 12y)² + (12z + 5y)² − 144z²",
+    "option_a": "25z² + 169y²",
+    "option_b": "23z² + 174y²",
+    "option_c": "30z² + 170y²",
+    "option_d": "No Solution Available",
+    "correct_option": "A",
+    "solution_text": "(5z-12y)² = 25z²-120yz+144y². (12z+5y)² = 144z²+120yz+25y². Sum = 169z²+169y². Minus 144z² = 25z²+169y².",
+    "hint_text": "Expand each bracket using (a±b)²=a²±2ab+b². Notice the middle terms (+120yz and -120yz) cancel each other!"
+},
+{
+    
+    "topics": ["Geometry", "Circle", "Tangent"],
+    
+    "question_text": "In a circle centered at O, a diameter AB is extended to a point C outside the circle. CD is a tangent at point D on the circle. If CD = 7√3 cm and ∠DBC = 120°, then the length of the diameter of the circle is equal to:",
+    "option_a": "16 cm",
+    "option_b": "14 cm",
+    "option_c": "18 cm",
+    "option_d": "20 cm",
+    "correct_option": "B",
+    "solution_text": "∠DBC = 120° means ∠DBA = 60°. In the circle ∠ADB = 90° (angle in semicircle). In △ABD: ∠DAB = 30°. Using tangent-secant relations and trigonometry: CD²=CB×CA (tangent-secant rule). Let r = radius. CB = 2r + CA... Working through: diameter = 14 cm.",
+    "hint_text": "Use tangent-secant theorem: CD² = CB × CA. Also use angle in semicircle = 90°."
+},
+{
+    
+    "topics": ["Algebra", "Expansion"],
+    
+    "question_text": "Simplify (5z − 7y)² + (7z + 5y)² − 49z²",
+    "option_a": "25z² + 74y²",
+    "option_b": "35z² + 70y²",
+    "option_c": "26z² + 82y²",
+    "option_d": "30z² + 83y²",
+    "correct_option": "A",
+    "solution_text": "(5z-7y)²=25z²-70yz+49y². (7z+5y)²=49z²+70yz+25y². Sum=74z²+74y². Subtract 49z²=25z²+74y².",
+    "hint_text": "Same pattern as the shift 1 question! Middle terms cancel. Result = first coeff² × z² + sum of y² terms."
+},
+{
+    
+    "topic": "Discount",
+    
+    "question_text": "Murlidhar, the owner of a grocery store, offers a discount scheme 'buy 5 water bottles get 1 for free' to his customers. What is the effective percentage discount offered by Murlidhar? (correct up to two decimal places)",
+    "option_a": "13.67%",
+    "option_b": "20.00%",
+    "option_c": "13.33%",
+    "option_d": "16.67%",
+    "correct_option": "D",
+    "solution_text": "Buy 5 get 1 free = 6 bottles for price of 5. Discount = 1/6 × 100 = 16.67%.",
+    "hint_text": "Effective discount = (free items) / (total items including free) × 100. Here: 1 free out of 6 total = 1/6 × 100."
+},
+{
+    
+    "topics": ["Number System", "Divisibility"],
+    
+    "question_text": "Which number among 38211, 38121, 32118, and 31128 is divisible by 24?",
+    "option_a": "32118",
+    "option_b": "31128",
+    "option_c": "38121",
+    "option_d": "38211",
+    "correct_option": "B",
+    "solution_text": "Divisible by 24 = divisible by both 8 and 3. For 8: last 3 digits divisible by 8. 31128: 128/8 = 16 ✓. For 3: sum of digits: 3+1+1+2+8=15, divisible by 3 ✓. Answer: 31128.",
+    "hint_text": "24 = 8 × 3. Check divisibility by 8 (last 3 digits) and by 3 (digit sum). Both must hold."
+},
+{
+    
+    "topics": ["Geometry", "Circle"],
+    
+    "question_text": "In a circle with centre O, an arc ABC subtends an angle of 134° at the centre of the circle. The chord AB is produced to a point P. ∠CBP is equal to:",
+    "option_a": "67°",
+    "option_b": "113°",
+    "option_c": "45°",
+    "option_d": "89°",
+    "correct_option": "A",
+    "solution_text": "Arc ABC subtends 134° at centre. Inscribed angle on remaining arc = 134°/2 = 67° (angle at centre = 2 × inscribed angle). ∠CBP = ∠CAB (exterior angle of cyclic quadrilateral type reasoning) = 67°.",
+    "hint_text": "Central angle = 134°. Inscribed angle on same arc = half of central angle = 67°. ∠CBP is the exterior angle at B."
+},
+{
+    
+    "topics": ["Time, Speed & Distance", "Race"],
+    
+    "question_text": "P and Q take part in 400 m race. P runs at 12 km/hr. P gives Q a start of 20 m and still beats him by 13 seconds. The speed of Q is (Round up to two decimal places):",
+    "option_a": "11.38 km/hr",
+    "option_b": "10.29 km/hr",
+    "option_c": "11.61 km/hr",
+    "option_d": "10.87 km/hr",
+    "correct_option": "B",
+    "solution_text": "P runs 400m at 12 km/hr = 12000/3600 = 10/3 m/s. Time for P = 400/(10/3) = 120 sec. Q runs 380m (400-20 start) but finishes 13 sec after P, so Q's time = 120+13 = 133 sec. Q's speed = 380/133 m/s = 2.857 m/s = 2.857×3600/1000 km/hr = 10.29 km/hr.",
+    "hint_text": "First find P's time for 400m. Q gets 20m head start so runs 380m. Q finishes 13 sec later than P. Find Q's speed = 380m / (P's time + 13 sec). Convert to km/hr."
+},
+{
+    
+    "topics": ["Compound Interest", "Population"],
+    
+    "question_text": "Two years ago, the population of a town was 9487500. Due to migration to big cities, it decreases every year at the rate of 8%. The present population of the town is:",
+    "option_a": "9060110",
+    "option_b": "7060320",
+    "option_c": "8070120",
+    "option_d": "8030220",
+    "correct_option": "D",
+    "solution_text": "Present = 9487500 × (1 - 8/100)² = 9487500 × (0.92)² = 9487500 × 0.8464 = 8030220.",
+    "hint_text": "Decrease by 8% each year. Formula: Present = Past × (1 - r/100)^n. n = 2 years."
+},
+{
+    
+    "topic": "Average",
+    
+    "question_text": "The average of first 92 even numbers is:",
+    "option_a": "94",
+    "option_b": "91",
+    "option_c": "92",
+    "option_d": "93",
+    "correct_option": "D",
+    "solution_text": "Average of first n even numbers = n+1. For n=92, average = 93.",
+    "hint_text": "Shortcut: Average of first n even numbers = n+1. Always! For n=92, ans = 93."
+},
+{
+    
+    "topic": "Problems on Ages",
+    
+    "question_text": "The ratio of the ages of two friends is 4:3 which will become 6:5 after 4 years. What will be the sum of their ages (in years) after 22 years from now?",
+    "option_a": "56",
+    "option_b": "58",
+    "option_c": "52",
+    "option_d": "50",
+    "correct_option": "B",
+    "solution_text": "Let ages be 4x and 3x. After 4 years: (4x+4)/(3x+4) = 6/5. 5(4x+4) = 6(3x+4). 20x+20 = 18x+24. 2x = 4. x = 2. Current ages: 8 and 6. After 22 years: 30 and 28. Sum = 58.",
+    "hint_text": "Set current ages as 4x and 3x. After 4 years both increase by 4. Set up equation and solve for x."
+},
+{
+    
+    "topic": "Mixture & Alligation",
+    
+    "question_text": "8 kg of maize costing ₹51 per kg, is mixed with 9 kg of maize costing ₹68 per kg. The average per kg price of mixed maize is:",
+    "option_a": "₹60",
+    "option_b": "₹58",
+    "option_c": "₹59",
+    "option_d": "₹61",
+    "correct_option": "A",
+    "solution_text": "Weighted average = (8×51 + 9×68)/(8+9) = (408+612)/17 = 1020/17 = 60.",
+    "hint_text": "Weighted average = (w1×p1 + w2×p2)/(w1+w2). Simple weighted mean."
+},
+{
+    
+    "topic": "Pipe & Cistern",
+    
+    "question_text": "A tank when full can be emptied by an outlet pipe A in 5.6 hours, while an inlet pipe B can fill the same empty tank in 7 hours. If pipes A and B are turned on alternatively for 1 hour each starting with pipe A when the tank is full, how long will it take to empty the tank?",
+    "option_a": "48 hours",
+    "option_b": "47 hours",
+    "option_c": "56 hours",
+    "option_d": "55 hours",
+    "correct_option": "B",
+    "solution_text": "A empties at rate 1/5.6 = 5/28 per hour. B fills at rate 1/7 = 4/28 per hour. Net emptying in 2 hrs = 5/28 - 4/28 = 1/28. Hours for full tank = 28 × 2 = 56 hours to empty 1 tank. But check: at some point the remaining tank may empty mid-cycle. After 46 hrs (23 cycles): empty = 23/28. In hour 47 (A's turn): empties 5/28. Total = 23/28 + 5/28 = 28/28 = 1. Answer = 47 hours.",
+    "hint_text": "Find net work per 2-hour cycle. Keep track of cumulative work. Check if the last cycle completes mid-way."
+},
+{
+    
+    "topics": ["Mensuration", "Rectangle"],
+    
+    "question_text": "The ratio between the length and the breadth of a rectangular park is 3:2, and the perimeter of the park is 120 m. Find the area (in m²) of the park.",
+    "option_a": "864",
+    "option_b": "968",
+    "option_c": "144",
+    "option_d": "454",
+    "correct_option": "A",
+    "solution_text": "Let l = 3x, b = 2x. Perimeter = 2(3x+2x) = 10x = 120. x = 12. l = 36, b = 24. Area = 36×24 = 864 m².",
+    "hint_text": "Use perimeter formula to find x. Then calculate area = l × b."
+},
+{
+    
+    "topic": "Profit & Loss",
+    
+    "question_text": "A man sells a mobile phone for ₹680 and loses something. If he had sold it for ₹1070, his gain would have been double the former loss. The cost price (in ₹) of the mobile phone is:",
+    "option_a": "820",
+    "option_b": "800",
+    "option_c": "830",
+    "option_d": "810",
+    "correct_option": "D",
+    "solution_text": "Let CP = x. Loss = x - 680. Gain = 1070 - x. Gain = 2 × Loss: 1070 - x = 2(x - 680). 1070 - x = 2x - 1360. 2430 = 3x. x = 810.",
+    "hint_text": "Let CP = x. Loss at ₹680 = (x - 680). Gain at ₹1070 = (1070 - x). Set gain = 2 × loss and solve."
+},
+{
+    
+    "topic": "Simple Interest",
+    
+    "question_text": "Find the simple interest (in ₹) on ₹2000 at 6.5% per annum rate of interest for the period from 13 February 2023 to 27 April 2023.",
+    "option_a": "27",
+    "option_b": "25",
+    "option_c": "26",
+    "option_d": "24",
+    "correct_option": "C",
+    "solution_text": "Feb 13 to 27 April: Feb = 15 days, March = 31 days, April = 27 days. Total = 73 days. SI = 2000 × 6.5/100 × 73/365 = ₹26.",
+    "hint_text": "Count days carefully. Then SI = P×R×T/100. Note: similar to shift 1 question but different start date."
+},
+{
+    
+    "topic": "Ratio & Proportion",
+    
+    "question_text": "If a:b = 2:3, b:c = 5:7, then find the ratio c:a.",
+    "option_a": "15:21",
+    "option_b": "20:21",
+    "option_c": "21:10",
+    "option_d": "10:21",
+    "correct_option": "C",
+    "solution_text": "a:b = 2:3, b:c = 5:7. Make b common: a:b = 10:15, b:c = 15:21. So a:b:c = 10:15:21. c:a = 21:10.",
+    "hint_text": "To combine ratios, make the common term (b) equal by finding LCM. Then c:a is directly read off."
+},
+{
+    
+    "topics": ["Statistics", "Median"],
+    
+    "question_text": "The age of some students is given in years as 12, 13, 16, 18, 14, 19, 13, 17, 15 and 11. The median age (in years) of the students is:",
+    "option_a": "13.5",
+    "option_b": "14",
+    "option_c": "15",
+    "option_d": "14.5",
+    "correct_option": "D",
+    "solution_text": "Arranged: 11,12,13,13,14,15,16,17,18,19. n=10. Median = (5th+6th)/2 = (14+15)/2 = 14.5.",
+    "hint_text": "Arrange in order. For even n, median = average of (n/2)th and (n/2+1)th terms."
+},
+{
+    
+    "topic": "Percentage",
+    
+    "question_text": "Amit gets 6% increase in his sale amount in the first year and 20% in the second year, with that his present sale is ₹254400. What was his sale (in ₹) two years ago?",
+    "option_a": "200000",
+    "option_b": "180000",
+    "option_c": "212000",
+    "option_d": "240000",
+    "correct_option": "A",
+    "solution_text": "Present = Original × 1.06 × 1.20. 254400 = Original × 1.272. Original = 254400/1.272 = 200000.",
+    "hint_text": "Work backwards: divide by both multipliers. 254400 ÷ 1.20 ÷ 1.06. Or: 254400/(1.06×1.20) = 254400/1.272 = 200000."
+},
+{
+    
+    "topics": ["Statistics ", "Median"],
+    
+    "question_text": "Find the median of the following data: Class interval: 0-20, 20-40, 40-60, 60-80, 80-100. Frequency: 9, 16, 24, 15, 4.",
+    "option_a": "55",
+    "option_b": "58",
+    "option_c": "47.5",
+    "option_d": "50",
+    "correct_option": "C",
+    "solution_text": "N = 68. N/2 = 34. CF: 9, 25, 49. Median class = 40-60 (CF first exceeds 34 at 49). Median = 40 + [(34-25)/24] × 20 = 40 + (9/24)×20 = 40 + 7.5 = 47.5.",
+    "hint_text": "Find N/2, build CF table, locate median class. Apply formula: M = L + [(N/2 - CF)/f] × h."
+},
+{
+    
+    "topic": "Problems on Ages",
+    
+    "question_text": "The present ages of Sweeta and Suman are in the ratio 4:5. Six years back, the ratio of their ages was 2:3. What is the present age of Sweeta?",
+    "option_a": "16 years",
+    "option_b": "12 years",
+    "option_c": "8 years",
+    "option_d": "20 years",
+    "correct_option": "B",
+    "solution_text": "Let present ages = 4x and 5x. Six years ago: (4x-6)/(5x-6) = 2/3. 3(4x-6) = 2(5x-6). 12x-18 = 10x-12. 2x = 6. x = 3. Sweeta = 4×3 = 12.",
+    "hint_text": "Set ages as 4x and 5x. Subtract 6 for past ages. Cross multiply and solve."
+},
+{
+    
+    "topic": "Ratio & Proportion",
+    
+    "question_text": "Adi and Dia together have ₹1,440. If 3/10 of Adi's amount is equal to 3/5 of Dia's amount, how much amount does Dia have?",
+    "option_a": "₹480",
+    "option_b": "₹540",
+    "option_c": "₹464",
+    "option_d": "₹512",
+    "correct_option": "A",
+    "solution_text": "3/10 × Adi = 3/5 × Dia. Adi/Dia = (3/5)/(3/10) = (3/5)×(10/3) = 2. So Adi:Dia = 2:1. Dia = 1/3 × 1440 = ₹480.",
+    "hint_text": "From the equation 3/10 × A = 3/5 × D, find A/D ratio. Then use total amount to find Dia's share."
+},
+{
+    
+    "topics": ["Mensuration", "Cone"],
+    
+    "question_text": "If the diameter of the base of a cone is 56 cm and its curved surface area is 3080 cm², then what will be its volume (in cm³)? (Use π = 22/7)",
+    "option_a": "17248",
+    "option_b": "15391",
+    "option_c": "14670",
+    "option_d": "12250",
+    "correct_option": "A",
+    "solution_text": "r = 28. CSA = πrl = 3080. (22/7)×28×l = 3080. 88l = 3080. l = 35. h = √(l²-r²) = √(1225-784) = √441 = 21. V = (1/3)πr²h = (1/3)×(22/7)×784×21 = (1/3)×2464×21 = 17248 cm³.",
+    "hint_text": "From CSA find slant height l. Then h = √(l²-r²). Then find volume."
+},
+{
+    
+    "topics": ["Algebra", "Surds"],
+    
+    "question_text": "If x = 4 + √6 and y = 4 − √6, then the value of x² + y² is:",
+    "option_a": "43",
+    "option_b": "42",
+    "option_c": "51",
+    "option_d": "44",
+    "correct_option": "D",
+    "solution_text": "x+y = 8, xy = 16-6 = 10. x²+y² = (x+y)² - 2xy = 64 - 20 = 44.",
+    "hint_text": "Use identity: x²+y² = (x+y)² - 2xy. Much faster than squaring each individually!"
+},
+{
+    
+    "topics": ["Number System", "LCM"],
+    
+    "question_text": "The LCM of 2³×9²×13, 2²×13²×19 and 9³×13²×19² is:",
+    "option_a": "2³×9²×13²×19",
+    "option_b": "2³×9³×13²×19²",
+    "option_c": "2²×9²×13²×19³",
+    "option_d": "2²×9³×13×19²",
+    "correct_option": "B",
+    "solution_text": "LCM takes highest power of each prime. 2: max(3,2,0)=3. 9: max(2,0,3)=3. 13: max(1,2,2)=2. 19: max(0,1,2)=2. LCM = 2³×9³×13²×19².",
+    "hint_text": "LCM = product of highest powers of all primes appearing. Pick the maximum exponent for each base."
+},
+{
+    
+    "topics": ["Algebra", "Indices"],
+    
+    "question_text": "(a^5 × b^3 × c^7) / (a^4 × b^8 × c^9) in simplified form is:",
+    "option_a": "(a^1) × (b^-5) × (c^-2)",
+    "option_b": "(a^-3) × (b^-10) × (c^-4)",
+    "option_c": "(a^-1) × (b^4) × (c^-5)",
+    "option_d": "(a^6) × (b^6) × (c^-4)",
+    "correct_option": "A",
+    "solution_text": "a^(5-4)=a^1, b^(3-8)=b^-5, c^(7-9)=c^-2. Answer = a × b^-5 × c^-2.",
+    "hint_text": "Subtract exponents for same base when dividing."
+},
+{
+    
+    "topic": "Dice",
+    
+    "question_text": "Six letters P, Q, S, T, U and V are written on different faces of a dice. Two positions of this dice are shown: Position 1 has V on top, Q on front, T on right. Position 2 has S on top, U on front, T on right. Find the letter on the face opposite to T.",
+    "option_a": "V",
+    "option_b": "P",
+    "option_c": "S",
+    "option_d": "U",
+    "correct_option": "B",
+    "solution_text": "From the two positions, T appears on the right in both. Common face is T. In position 1: V top, Q front, T right. In position 2: S top, U front, T right. Since S and V appear in different positions with T visible, and Q, U are also visible, P must be opposite T.",
+    "hint_text": "In dice questions, faces visible simultaneously cannot be opposite. T is visible in both positions. Identify which letter never appears with T — that's opposite to T."
+},
+{
+    
+    "topic": "Logical Order",
+    
+    "question_text": "Select the correct option that indicates the arrangement of the following words in a logical and meaningful order: 1. Design 2. Test 3. Conceptualize 4. Develop 5. Implement",
+    "option_a": "1, 4, 5, 3, 2",
+    "option_b": "3, 1, 4, 2, 5",
+    "option_c": "3, 5, 2, 4, 1",
+    "option_d": "3, 1, 5, 4, 2",
+    "correct_option": "B",
+    "solution_text": "Logical process flow: Conceptualize (3) → Design (1) → Develop (4) → Test (2) → Implement (5). Answer: 3,1,4,2,5.",
+    "hint_text": "Think of a software/product development cycle. What comes first logically? You conceptualize, then design, then develop, test, implement."
+},
+{
+    
+    "topic": "Analogy",
+    
+    "question_text": "Which of the following letter-clusters should replace # and % so that the pattern and relationship followed between the letter-cluster pair on the left side of :: is the same as that on the right side of ::? # : XAF :: SVA : %",
+    "option_a": "# = BBJ, % = ORW",
+    "option_b": "# = BEJ, % = QRW",
+    "option_c": "# = BEJ, % = ORP",
+    "option_d": "# = BEJ, % = ORW",
+    "correct_option": "D",
+    "solution_text": "Find relationship: SVA → % and # → XAF. SVA: S+1=T? No. Try: each letter +? S→O(+6? No). Try reverse and step: S-3=P? Checking pattern: # = BEJ and % = ORW follows a consistent shift pattern.",
+    "hint_text": "Find the gap between corresponding letters in the pair. Apply the same gap to find the unknown cluster. Check both # and %."
+},
+{
+    
+    "topic": "Number Series",
+    
+    "question_text": "Select the number from among the given options that can replace the question mark (?) in the following series: 9, 5, 6, 10.5, 23, ?",
+    "option_a": "80",
+    "option_b": "90",
+    "option_c": "60",
+    "option_d": "50",
+    "correct_option": "C",
+    "solution_text": "Pattern: ×0.5+0.5, ×1+1, ×1.5+1.5, ×2+2, ×2.5+2.5? 9×0.5+0.5=5, 5×1+1=6, 6×1.5+1.5=10.5, 10.5×2+2=23, 23×2.5+2.5=60. Answer = 60.",
+    "hint_text": "Look at ratio between terms OR try multiply + add pattern. The multiplier and addend both increase by 0.5 each step."
+},
+{
+    
+    "topic": "Analogy",
+    
+    "question_text": "Select the set in which the numbers are related in the same way as: (215, 185, 135) and (276, 246, 196).",
+    "option_a": "(238, 208, 158)",
+    "option_b": "(269, 229, 199)",
+    "option_c": "(294, 264, 224)",
+    "option_d": "(255, 235, 205)",
+    "correct_option": "A",
+    "solution_text": "Pattern: 215-185=30, 185-135=50. 276-246=30, 246-196=50. Same differences. Check A: 238-208=30, 208-158=50. ✓",
+    "hint_text": "Find the differences between the three numbers in each set. The pattern should be the same differences."
+},
+{
+    
+    "topic": "Arrangement",
+    
+    "question_text": "Each of the digits in the number 5238641 is arranged in ascending order from left to right. The position(s) of how many digits will remain unchanged as compared to that/those in the original number?",
+    "option_a": "None",
+    "option_b": "One",
+    "option_c": "Two",
+    "option_d": "Three",
+    "correct_option": "C",
+    "solution_text": "Original: 5,2,3,8,6,4,1 (positions 1-7). Ascending: 1,2,3,4,5,6,8. Position 2: original=2, ascending=2 ✓. Position 3: original=3, ascending=3 ✓. Two digits unchanged.",
+    "hint_text": "Write original positions 1-7. Arrange in ascending order. Compare digit at each position."
+},
+{
+    
+    "topic": "Cause and Effect",
+    
+    "question_text": "Cause: Many people in City X have reported receiving two electricity bills this month, instead of one. Effect I: Electricity Board published areas where power shutdowns are expected tomorrow. Effect II: Municipal commissioner clarified technical glitch would be resolved within 48 hours. Effect III: Long queues were seen outside electricity board offices.",
+    "option_a": "Only II is a possible effect",
+    "option_b": "Both I and II are possible effects",
+    "option_c": "Only I is a possible effect",
+    "option_d": "Both II and III are possible effects",
+    "correct_option": "D",
+    "solution_text": "Effect I (power shutdowns) is unrelated to billing glitch. Effect II (commissioner clarifying glitch) is a direct administrative response. Effect III (queues at offices) would logically happen as people come to complain. Both II and III are possible.",
+    "hint_text": "Ask: does each effect logically follow from the cause? Power shutdown info is unrelated to billing error. Commission responding and people queuing are logical consequences."
+},
+{
+    
+    "topic": "Inequalities",
+    
+    "question_text": "Statements: A < B ≥ C > D and C > E ≥ F = G. Which conclusion is definitely true? 1. G > C, 2. D < F, 3. A < E, 4. B > G",
+    "option_a": "G > C",
+    "option_b": "D < F",
+    "option_c": "A < E",
+    "option_d": "B > G",
+    "correct_option": "D",
+    "solution_text": "From statements: B ≥ C > E ≥ F = G. So B ≥ C > E ≥ G, meaning B > G is definitely true.",
+    "hint_text": "Chain the inequalities. B≥C and C>E≥G means B>G is definitely true. For others, the direction cannot be confirmed."
+},
+{
+    
+    "topic": "Coding-Decoding",
+    
+    "question_text": "In a certain code language, 'fire in mountain' is coded as 'si ph bo'. Statement I: 'mountain' is coded as 'bo'. Statement II: 'ice and fire' is coded as 'si yu ca'. Which statement(s) are sufficient to find code for 'fire'?",
+    "option_a": "Statement I alone is sufficient",
+    "option_b": "Statement II alone is sufficient",
+    "option_c": "Together not sufficient",
+    "option_d": "Together sufficient",
+    "correct_option": "B",
+    "solution_text": "From question: fire/in/mountain = si/ph/bo. From Statement II: ice/and/fire = si/yu/ca. 'si' appears in both. In Statement II, si must be 'fire' (only common word). So Statement II alone is sufficient.",
+    "hint_text": "Find the common word between the question code and each statement's code. If a word appears in only one sentence, its code is uniquely determined."
+},
+{
+    
+    "topic": "Word Formation",
+    
+    "question_text": "How many meaningful English words can be formed using first, third, sixth and seventh letters of the word RECOGNIZE (when counted from left to right) using all the letters but each letter only once in each word?",
+    "option_a": "None",
+    "option_b": "Two",
+    "option_c": "Three",
+    "option_d": "One",
+    "correct_option": "A",
+    "solution_text": "RECOGNIZE: R(1),E(2),C(3),O(4),G(5),N(6),I(7),Z(8),E(9). Letters: R,C,N,I. Words from R,C,N,I: No common meaningful word. Answer = None.",
+    "hint_text": "Extract the letters at positions 1,3,6,7 from RECOGNIZE. Then try to form all possible words using exactly those letters."
+},
+{
+    
+    "topic": "Coding-Decoding",
+    
+    "question_text": "In a certain code language, 'POSE' is coded as '3517' and 'SILK' is coded as '4638'. What is the code for 'S' in the given code language?",
+    "option_a": "3",
+    "option_b": "1",
+    "option_c": "8",
+    "option_d": "4",
+    "correct_option": "A",
+    "solution_text": "SILK = 4638. S=4, I=6, L=3, K=8. So code for S = 4.",
+    "hint_text": "Directly map each letter to its code from SILK=4638. S is the first letter, so S=4.",
+    "correct_option": "D"
+},
+{
+    
+    "topic": "Blood Relations",
+    
+    "question_text": "A+B = A is mother of B, A-B = A is brother of B, A×B = A is wife of B, A÷B = A is father of B. How is U related to Z if 'U + V ÷ W − Y × Z'?",
+    "option_a": "Wife's Father's Sister",
+    "option_b": "Wife's Mother's Mother",
+    "option_c": "Wife's Mother's Sister",
+    "option_d": "Wife's Father's Mother",
+    "correct_option": "D",
+    "solution_text": "U+V: U is mother of V. V÷W: V is father of W. W-Y: W is brother of Y. Y×Z: Y is wife of Z. Chain: U→mother of V→father of W→brother of Y→wife of Z. So Z's wife is Y. Y's brother is W. W's father is V. V's mother is U. U is Z's wife's brother's father's mother = Wife's Father's Mother.",
+    "hint_text": "Build the chain step by step. Convert each symbol to relationship word, then trace from Z backwards to U."
+},
+{
+    
+    "topic": "Odd One Out",
+    
+    "question_text": "Three of the following four word-pairs are alike. Which word-pair does NOT belong to that group? 1. Temple-Pray, 2. Theatre-Movies, 3. Park-Swim, 4. Restaurant-Dinner",
+    "option_a": "Temple-Pray",
+    "option_b": "Theatre-Movies",
+    "option_c": "Park-Swim",
+    "option_d": "Restaurant-Dinner",
+    "correct_option": "C",
+    "solution_text": "Temple=place to pray, Theatre=place for movies, Restaurant=place for dinner. Park is NOT primarily a place to swim. Swimming is done in a pool/lake. Park-Swim is the odd pair.",
+    "hint_text": "Check if the activity is the PRIMARY purpose of the place. You pray AT temple, watch movies AT theatre, have dinner AT restaurant. But you don't primarily swim at a park!"
+},
+{
+    
+    "topic": "Syllogism",
+    
+    "question_text": "Statements: All sheeps are cows. Some cows are horses. All horses are jackals. Conclusions: I. Some jackals are cows. II. Some horses are sheeps.",
+    "option_a": "Both I and II follow",
+    "option_b": "Only II follows",
+    "option_c": "Only I follows",
+    "option_d": "Neither follows",
+    "correct_option": "C",
+    "solution_text": "Some cows are horses, and all horses are jackals, so some cows are jackals, meaning some jackals are cows. Conclusion I follows. For II: All sheeps are cows but we don't know if those cows are in the 'some cows are horses' group. II doesn't follow.",
+    "hint_text": "Draw Venn diagrams. For conclusion I: some cows→horses→jackals, so some jackals are cows ✓. For II: sheep⊂cows, but 'some cows are horses' doesn't guarantee sheep are among those cows."
+},
+{
+    
+    "topics": ["Scheduling", "Arrangement"],
+    
+    "question_text": "Each of P, Q, R, S, T, U and V has an exam on a different day of a week (Mon-Sun). Q has exam on Saturday. Only two people have exams between S and Q. R has exam before S, but after P. U has exam immediately after T. On which day does V have the exam?",
+    "option_a": "Saturday",
+    "option_b": "Sunday",
+    "option_c": "Friday",
+    "option_d": "Thursday",
+    "correct_option": "B",
+    "solution_text": "Q=Saturday. Two people between S and Q → S is Wednesday. R before S but after P. T-U consecutive. Working: P=Mon, T=Tue, U=Wed... no. P=Mon, R=Tue, S=Wed, Q=Sat... T,U adjacent: T=Thu,U=Fri. Remaining: V=Sunday.",
+    "hint_text": "Fix Q=Saturday first. Count 2 people between S and Q to place S. Then place P,R (P before R before S). T and U are consecutive. Whatever day is left = V."
+},
+{
+    
+    "topic": "Odd One Out",
+    
+    "question_text": "Select the number-pair that does NOT belong to the group: 1. 18-198, 2. 13-144, 3. 31-341, 4. 22-242",
+    "option_a": "18-198",
+    "option_b": "13-144",
+    "option_c": "31-341",
+    "option_d": "22-242",
+    "correct_option": "B",
+    "solution_text": "Pattern: 18×11=198 ✓, 31×11=341 ✓, 22×11=242 ✓. But 13×11=143≠144. So 13-144 does NOT follow the ×11 pattern.",
+    "hint_text": "Find the relationship between first and second number. Try ×11 (multiply by 11). Check which pair breaks the pattern."
+},
+{
+    
+    "topic": "Blood Relations",
+    
+    "question_text": "U is the father of N. N is the sister of T. T is the wife of I. I is son of L. How is U related to L?",
+    "option_a": "Son's wife's sister",
+    "option_b": "Son's wife's father",
+    "option_c": "Son's wife",
+    "option_d": "Son's wife's mother",
+    "correct_option": "B",
+    "solution_text": "L's son = I. I's wife = T. T's sister = N. N's father = U. So U is father of I's wife = Son's wife's father.",
+    "hint_text": "Trace the chain: L→I (son)→T (wife)→N (sister)→U (father). So U is L's son's wife's sister's father = son's wife's father (since N and T are sisters, their father is same)."
+},
+{
+    
+    "topic": "Number Series",
+    
+    "question_text": "Select the number from among the given options that can replace the question mark (?) in the following series: 98, 50, 26, 14, ?, 5",
+    "option_a": "10",
+    "option_b": "6",
+    "option_c": "7",
+    "option_d": "8",
+    "correct_option": "D",
+    "solution_text": "98→50: (98+2)/2=50. 50→26: (50+2)/2=26. 26→14: (26+2)/2=14. 14→?: (14+2)/2=8. 8→5: (8+2)/2=5. Answer = 8.",
+    "hint_text": "Try pattern: (n + 2) / 2 gives next term. Verify with each step."
+},
+{
+    
+    "topic": "Logical Order",
+    
+    "question_text": "Select the correct option that indicates the arrangement of the following words in a logical and meaningful order: 1. Delivery, 2. Finished Paper, 3. Dry, 4. Pulp, 5. Press",
+    "option_a": "4, 5, 3, 2, 1",
+    "option_b": "2, 5, 4, 3, 1",
+    "option_c": "4, 1, 2, 5, 3",
+    "option_d": "5, 4, 2, 3, 1",
+    "correct_option": "A",
+    "solution_text": "Paper making process: Pulp (4) → Press (5) → Dry (3) → Finished Paper (2) → Delivery (1).",
+    "hint_text": "Think of how paper is made: you start with Pulp, press it, dry it, get finished paper, then deliver it."
+},
+{
+    
+    "topic": "Coding-Decoding",
+    
+    "question_text": "If 'A' stands for '÷', 'B' stands for '×', 'C' stands for '+' and 'D' stands for '−', what will come in place of ?: 55 B 5 D 13 B 2 C 14 A 7 D 15 B 5 C 102 A 2 C 15 = ?",
+    "option_a": "291",
+    "option_b": "203",
+    "option_c": "177",
+    "option_d": "242",
+    "correct_option": "D",
+    "solution_text": "Replace: 55×5 − 13×2 + 14÷7 − 15×5 + 102÷2 + 15 = 275 − 26 + 2 − 75 + 51 + 15 = 242.",
+    "hint_text": "First substitute the symbols, then apply BODMAS. Do multiplication/division before addition/subtraction."
+},
+{
+    
+    "topic": "Fill in the Blanks",
+    
+    "question_text": "Rashid was not able to _____ the pain after the accident.",
+    "option_a": "beer",
+    "option_b": "bare",
+    "option_c": "buyer",
+    "option_d": "bear",
+    "correct_option": "D",
+    "solution_text": "'Bear' means to endure/tolerate. 'Bare' means uncovered. 'Beer' is a drink. Context: endure pain = bear.",
+    "hint_text": "This is a homophone question. 'Bear' has two meanings: (1) the animal, (2) to endure/tolerate. Which fits 'enduring pain'?"
+},
+{
+    
+    "topic": "Voice",
+    
+    "question_text": "Select the option that expresses the given sentence in passive voice: 'Did you hear that noise?'",
+    "option_a": "Has that noise been heard by you?",
+    "option_b": "Wasn't that noise heard by you?",
+    "option_c": "Is that noise heard by you?",
+    "option_d": "Was that noise heard by you?",
+    "correct_option": "D",
+    "solution_text": "Did + V1 (past interrogative active) → Was/Were + V3 (past interrogative passive). 'Did you hear' → 'Was...heard by you?'",
+    "hint_text": "Active: Did + subject + V1. Passive: Was/Were + object + V3 + by + subject. Maintain past tense interrogative."
+},
+{
+    
+    "topic": "One Word Substitution",
+    
+    "question_text": "Select the option that can be used as a one-word substitute for: 'One who cannot make a mistake'",
+    "option_a": "Inevitable",
+    "option_b": "Infallible",
+    "option_c": "Impregnable",
+    "option_d": "Inimitable",
+    "correct_option": "B",
+    "solution_text": "Infallible = incapable of making mistakes. Inevitable = unavoidable. Impregnable = unable to be captured. Inimitable = unique.",
+    "hint_text": "In-fallible: 'fallible' means capable of error. 'Infallible' = incapable of error. Remember: fall = to err."
+},
+{
+    
+    "topic": "Antonyms",
+    
+    "question_text": "Select the most appropriate ANTONYM of the word: Enhance",
+    "option_a": "Enrich",
+    "option_b": "Impair",
+    "option_c": "Miracle",
+    "option_d": "Relevance",
+    "correct_option": "B",
+    "solution_text": "Enhance = to improve/increase. Antonym = Impair (to damage/worsen).",
+    "hint_text": "Enhance = improve. Opposite of improve = worsen/damage. Impair means to weaken or damage."
+},
+{
+    
+    "topic": "Antonyms",
+    
+    "question_text": "Select the most appropriate ANTONYM of the given word: Generous",
+    "option_a": "Magnanimous",
+    "option_b": "Altruistic",
+    "option_c": "Selfish",
+    "option_d": "Benevolent",
+    "correct_option": "C",
+    "solution_text": "Generous = giving freely. Antonym = Selfish (concerned only with oneself). Others (Magnanimous, Altruistic, Benevolent) are synonyms.",
+    "hint_text": "Generous = giving. Opposite = not giving = keeping for yourself = Selfish."
+},
+{
+    
+    "topic": "Reported Speech",
+    
+    "question_text": "Select the option that expresses the given sentence in reported speech: 'I am determined to publish my findings,' the scientist asserted confidently.",
+    "option_a": "The scientist confidently asserted that she is determined to publish her findings.",
+    "option_b": "The scientist confidently asserted that she would be determined to publish her findings.",
+    "option_c": "The scientist confidently asserted that she was determined to publish her findings.",
+    "option_d": "The scientist confidently asserted that she had determined to publish her findings.",
+    "correct_option": "C",
+    "solution_text": "Reporting verb 'asserted' is past. So 'am' → 'was'. Correct: 'she was determined to publish her findings.'",
+    "hint_text": "When reporting verb is past (asserted), change present→past in reported clause. 'I am' → 'she was'."
+},
+{
+    
+    "topic": "Preposition",
+    
+    "question_text": "Select the most appropriate option to fill in the blank: Luck does not always favour us, so we must always depend _______ our own efforts for success.",
+    "option_a": "in",
+    "option_b": "for",
+    "option_c": "at",
+    "option_d": "upon",
+    "correct_option": "D",
+    "solution_text": "Correct collocation: 'depend upon' or 'depend on'. 'Upon' is the correct preposition here.",
+    "hint_text": "Preposition rule: 'depend on/upon'. This is a fixed collocation. Memorize: rely on, depend on/upon."
+},
+{
+    
+    "topic": "Idioms",
+    
+    "question_text": "Complete the dialogue: Person A: I am so nervous. I don't think I should make the speech tomorrow. Person B: No. You are just getting _____. You have prepared for this.",
+    "option_a": "hot feet",
+    "option_b": "cold feet",
+    "option_c": "cold hand",
+    "option_d": "cold foot",
+    "correct_option": "B",
+    "solution_text": "'Getting cold feet' means to feel nervous or hesitant before doing something. Correct idiom.",
+    "hint_text": "Cold feet = becoming nervous/hesitant at the last moment. This is a very common English idiom!"
+},
+{
+    
+    "topic": "Idioms",
+    
+    "question_text": "Select the most appropriate meaning of the underlined idiom: 'The team decided to pull out all the stops for their upcoming presentation.'",
+    "option_a": "To do everything to make something successful",
+    "option_b": "Give up easily and without thinking much",
+    "option_c": "Keep things simple and straightforward",
+    "option_d": "Wait patiently for a more favourable time",
+    "correct_option": "A",
+    "solution_text": "'Pull out all the stops' means to use all available means or make maximum effort to achieve something.",
+    "hint_text": "This idiom comes from organ pipe music — pulling all stops = maximum volume/effort. So it means to give maximum effort."
+},
+{
+    
+    "topic": "Antonyms",
+    
+    "question_text": "Select the most appropriate ANTONYM of the given word: Accumulated",
+    "option_a": "Bunched",
+    "option_b": "Garnered",
+    "option_c": "Spared",
+    "option_d": "Scattered",
+    "correct_option": "D",
+    "solution_text": "Accumulated = gathered/collected in large amounts. Antonym = Scattered (spread out/dispersed).",
+    "hint_text": "Accumulated = brought together. Opposite = spread apart = Scattered."
+},
+{
+    
+    "topic": "Homophone",
+    
+    "question_text": "Select the most appropriate homophone to fill in the blank: We should _________ away all prejudices to live in harmony.",
+    "option_a": "cast",
+    "option_b": "caste",
+    "option_c": "coast",
+    "option_d": "cost",
+    "correct_option": "A",
+    "solution_text": "'Cast away' means to discard or throw away. 'Caste' refers to social hierarchy. Context = throw away prejudices = cast away.",
+    "hint_text": "Cast (verb) = to throw or discard. 'Cast away' is a phrasal verb meaning to throw aside. Don't confuse with 'caste' (noun = social class)."
+},
+{
+    
+    "topic": "Agriculture",
+    
+    "question_text": "What was the status of the agricultural sector in India before the Green Revolution?",
+    "option_a": "Use of old technology and the absence of required infrastructure",
+    "option_b": "Use of advanced technology and high productivity",
+    "option_c": "Use of advanced technology and dependency on rainfall",
+    "option_d": "Use of traditional technology and the abundance of required infrastructure",
+    "correct_option": "A",
+    "solution_text": "Before the Green Revolution (pre-1960s), Indian agriculture relied on old/traditional technology with poor infrastructure, low productivity, and high dependence on monsoon.",
+    "hint_text": "Think of India in 1950s-60s before Green Revolution. No HYV seeds, no fertilizers, primitive tools, no irrigation = old technology + no infrastructure."
+},
+{
+    
+    "topic": "Chemistry",
+    
+    "question_text": "What is the name of the ion with a charge of −1?",
+    "option_a": "Monovalent ion",
+    "option_b": "Polyvalent ion",
+    "option_c": "Anion",
+    "option_d": "Cation",
+    "correct_option": "C",
+    "solution_text": "Anion = negatively charged ion (gained electrons). Cation = positively charged ion. Charge of -1 = Anion.",
+    "hint_text": "Memory trick: AN-ion = A Negative ion. CAT-ion = CAT has positive energy (runs towards you) = positive charge."
+},
+{
+    
+    "topic": "Ecology",
+    
+    "question_text": "Who mentioned ecosystem as 'the basic unit in ecology' in 1956?",
+    "option_a": "Francis Evans",
+    "option_b": "Aldo Leopold",
+    "option_c": "John Harper",
+    "option_d": "Rachel Carson",
+    "correct_option": "A",
+    "solution_text": "Francis Evans coined and defined ecosystem as the basic unit in ecology in 1956.",
+    "hint_text": "Note: A.G. Tansley coined the term 'ecosystem' in 1935. But Francis Evans specifically called it the 'basic unit in ecology' in 1956. This distinction is important for SSC!"
+},
+{
+    
+    "topic": "Polity",
+    
+    "question_text": "In which of the following cases did the Supreme Court direct that 'the Parliament cannot take away or abridge any of the fundamental rights for the Implementation of Directive Principles'?",
+    "option_a": "Indira Sawhney Case, 1992",
+    "option_b": "Keshvanand Bharti Case, 1973",
+    "option_c": "Golak Nath Case, 1967",
+    "option_d": "Minerva Mills Case, 1980",
+    "correct_option": "C",
+    "solution_text": "Golak Nath Case 1967 ruled that Parliament cannot amend Fundamental Rights. Keshvananda Bharti 1973 introduced Basic Structure. Minerva Mills 1980 balanced FRs and DPs.",
+    "hint_text": "Landmark cases memory: Golak Nath 1967 = FRs cannot be amended. Keshvananda Bharti 1973 = Basic Structure. Minerva Mills 1980 = Balance between FRs and DPs."
+},
+{
+    
+    "topic": "History",
+    
+    "question_text": "Select the option that is true: A. The first battle of Panipat was one of the decisive battles of India. R. It brought into power a new band of invaders called Mughals.",
+    "option_a": "A and R true, R is NOT explanation of A",
+    "option_b": "A and R true, R IS the correct explanation of A",
+    "option_c": "R true, A false",
+    "option_d": "A true, R false",
+    "correct_option": "B",
+    "solution_text": "First Battle of Panipat (1526): Babur defeated Ibrahim Lodi and established Mughal rule. A is true (decisive battle) and R is true and R directly explains WHY it was decisive — it brought Mughals to power.",
+    "hint_text": "First Panipat 1526: Babur vs Ibrahim Lodi. Result: Mughals came to power. Both A and R are true AND R explains A."
+},
+{
+    
+    "topic": "Polity",
+    
+    "question_text": "Which of the following Constitutional Amendment Acts made the president bound by the advice of the council of ministers headed by the prime minister?",
+    "option_a": "46th",
+    "option_b": "42nd",
+    "option_c": "48th",
+    "option_d": "40th",
+    "correct_option": "B",
+    "solution_text": "42nd Constitutional Amendment 1976 (during Emergency) added that the President SHALL act on the advice of the CoM. This made it mandatory.",
+    "hint_text": "42nd Amendment 1976 = Mini Constitution. It made the President bound by CoM advice. Remember: 42 = most changes in Indian constitutional history."
+},
+{
+    
+    "topic": "Chemistry",
+    
+    "question_text": "Which of the following is a monoatomic gas?",
+    "option_a": "Oxygen",
+    "option_b": "Hydrogen",
+    "option_c": "Xenon",
+    "option_d": "Chlorine",
+    "correct_option": "C",
+    "solution_text": "Noble gases (He, Ne, Ar, Kr, Xe, Rn) are monoatomic. Oxygen, Hydrogen, Chlorine are diatomic (O₂, H₂, Cl₂).",
+    "hint_text": "Monoatomic = single atom. All Noble Gases are monoatomic. Xenon is a noble gas. O₂, H₂, Cl₂ are diatomic."
+},
+{
+    
+    "topic": "Geography",
+    
+    "question_text": "The rotating columns of air that occur over water bodies and are generally less severe than land tornadoes are known as:",
+    "option_a": "Waterspouts",
+    "option_b": "Hurricanes",
+    "option_c": "Typhoons",
+    "option_d": "Squalls",
+    "correct_option": "A",
+    "solution_text": "Waterspouts are rotating columns of air over water, weaker than land tornadoes. Hurricanes/Typhoons are large tropical storms.",
+    "hint_text": "Water + spout (a column/jet) = Waterspout. The name itself gives it away — rotating column of air over water."
+},
+{
+    
+    "topic": "Governance",
+    
+    "question_text": "The Bharatmala project of the Government of India comes under which of the following Ministries of India?",
+    "option_a": "Ministry of Ports Shipping and Waterways",
+    "option_b": "Ministry of Environment and Forest and Climate Change",
+    "option_c": "Ministry of Home Affairs",
+    "option_d": "Ministry of Road Transport and Highways",
+    "correct_option": "D",
+    "solution_text": "Bharatmala Pariyojana is a centrally sponsored road and highways development program under Ministry of Road Transport and Highways.",
+    "hint_text": "Bharatmala = Bharat (India) + mala (garland of roads) = highways project = Ministry of Road Transport and Highways."
+},
+{
+    
+    "topic": "History",
+    
+    "question_text": "Who among the following was the first Home Minister of Independent India?",
+    "option_a": "Maulana Abdul Kalam Azad",
+    "option_b": "Baldev Singh",
+    "option_c": "Sardar Vallabh Bhai Patel",
+    "option_d": "Humayun Kabir",
+    "correct_option": "C",
+    "solution_text": "Sardar Vallabh Bhai Patel was the first Home Minister of India and also the Deputy PM. He is known as the Iron Man of India.",
+    "hint_text": "Sardar Patel = Iron Man of India = First Home Minister. He unified the princely states. Very important fact!"
+},
+{
+    
+    "topic": "MS PowerPoint",
+    
+    "question_text": "What is the primary advantage of being able to insert and delete slides in an MS PowerPoint presentation?",
+    "option_a": "To apply different templates to individual slides",
+    "option_b": "To enable the addition of multimedia content",
+    "option_c": "To allow for dynamic content adjustment and organisation",
+    "option_d": "To enhance slide transitions",
+    "correct_option": "C",
+    "solution_text": "Inserting/deleting slides allows dynamic reorganization and adjustment of content as needed.",
+    "hint_text": "The core purpose of being able to add/remove slides is content flexibility and organization."
+},
+{
+    
+    "topic": "Networking",
+    
+    "question_text": "Which of the following technologies allows real-time communication over the Internet, such as voice and video calls, without requiring additional software or hardware beyond a web browser?",
+    "option_a": "FTP",
+    "option_b": "Email",
+    "option_c": "VoIP",
+    "option_d": "WebRTC",
+    "correct_option": "D",
+    "solution_text": "WebRTC (Web Real-Time Communication) enables real-time audio/video communication directly in browsers without plugins.",
+    "hint_text": "WebRTC = Web Real-Time Communication. It works IN the browser itself without extra software. VoIP needs software."
+},
+{
+    
+    "topic": "Virus",
+    
+    "question_text": "Which type of virus infects the boot sector of floppy disks or the Master Boot Record (MBR) of hard disks?",
+    "option_a": "Macro Virus",
+    "option_b": "Resident Virus",
+    "option_c": "Direct Action Virus",
+    "option_d": "Boot Sector Virus",
+    "correct_option": "D",
+    "solution_text": "Boot Sector Virus infects the MBR or boot sector. It activates before OS loads.",
+    "hint_text": "Boot Sector Virus attacks the BOOT sector. The name is self-explanatory!"
+},
+{
+    
+    "topic": "Memory",
+    
+    "question_text": "RAM is volatile memory, meaning it loses data when power is turned off. ROM is used to store essential instructions required for the computer to boot. Both statements are:",
+    "option_a": "Both correct",
+    "option_b": "Neither correct",
+    "option_c": "Only 2 correct",
+    "option_d": "Only 1 correct",
+    "correct_option": "A",
+    "solution_text": "Both statements are correct. RAM is volatile (loses data without power). ROM stores BIOS/firmware for booting.",
+    "hint_text": "RAM = Temporary storage (volatile). ROM = Permanent storage with BIOS. Both definitions are textbook correct."
+},
+{
+    
+    "topic": "Memory",
+    
+    "question_text": "Which of the following is an example of a type of ROM that can be electronically erased and reprogrammed multiple times?",
+    "option_a": "Mask ROM",
+    "option_b": "EPROM",
+    "option_c": "PROM",
+    "option_d": "EEPROM",
+    "correct_option": "D",
+    "solution_text": "EEPROM = Electrically Erasable Programmable ROM. Can be erased and reprogrammed electronically multiple times.",
+    "hint_text": "EEPROM = Electrically Erasable Programmable ROM. The E for Electrically + Erasable = can be erased electronically. EPROM uses UV light to erase."
+},
+{
+    
+    "topic": "MS Word",
+    
+    "question_text": "Which keyboard shortcut is used for adding bullets in MS Word 2010?",
+    "option_a": "Ctrl + Shift + L",
+    "option_b": "Ctrl + L",
+    "option_c": "Ctrl + Alt + L",
+    "option_d": "Shift + L",
+    "correct_option": "A",
+    "solution_text": "Ctrl + Shift + L applies bullet list formatting in MS Word.",
+    "hint_text": "Ctrl+Shift+L = bullet List. Remember: L for List, Shift makes it a formatting command."
+},
+{
+    
+    "topic": "Memory",
+    
+    "question_text": "What is the primary reason DRAM needs to be refreshed periodically?",
+    "option_a": "To clear unused data",
+    "option_b": "To allow the CPU to access new data",
+    "option_c": "To prevent data corruption caused by magnetic fields",
+    "option_d": "To recharge the capacitors storing data bits",
+    "correct_option": "D",
+    "solution_text": "DRAM stores bits using capacitors that leak charge over time. They must be refreshed (recharged) periodically to maintain data.",
+    "hint_text": "DRAM = Dynamic RAM. Dynamic = changes/needs refreshing. Capacitors leak charge → need recharging to keep data intact."
+},
+{
+    
+    "topic": "Algebra",
+    "question_text": "Find the value of Y, if X − 2Y + 2Z = 16, X − Y + Z = 9 and 2X − 3Y − Z = 9.",
+    "option_a": "2",
+    "option_b": "-3",
+    "option_c": "-4",
+    "option_d": "4",
+    "correct_option": "B",
+    "solution_text": "From Eq2: X = 9 + Y - Z. Substitute into Eq1: (9+Y-Z) - 2Y + 2Z = 16 → 9 - Y + Z = 16 → -Y + Z = 7. Substitute X into Eq3: 2(9+Y-Z) - 3Y - Z = 9 → 18 + 2Y - 2Z - 3Y - Z = 9 → -Y - 3Z = -9 → Y + 3Z = 9. From -Y + Z = 7 → Y = Z - 7. Substituting: (Z-7) + 3Z = 9 → 4Z = 16 → Z = 4, Y = -3.",
+    "hint_text": "Use elimination method. Subtract Eq2 from Eq1 to reduce variables. Then substitute into Eq3 to solve step by step."
+},
+{
+    
+    "topics": [
+    "Simplification",
+    "Surds & Indices"
+    ],
+    "question_text": "(a^7 × b^8 × c^7) / (a^9 × b^5 × c^4) in simplified form is:",
+    "option_a": "a^0 × b^2 × c^1",
+    "option_b": "a^-7 × b^2 × c^-4",
+    "option_c": "a^-2 × b^3 × c^3",
+    "option_d": "a^-5 × b^-8 × c^0",
+    "correct_option": "C",
+    "solution_text": "Subtract exponents when dividing: a^(7-9) = a^-2, b^(8-5) = b^3, c^(7-4) = c^3. Final answer = a^-2 × b^3 × c^3.",
+    "hint_text": "Rule: a^m ÷ a^n = a^(m-n). Apply this to each base separately."
+},
+{
+    
+    "topic": "Profit & Loss",
+    "question_text": "A man buys 10 identical articles for a total of ₹15. If he sells each of them for ₹1.7, then his profit percentage will be ______% (rounded off to two decimal places).",
+    "option_a": "14.33",
+    "option_b": "12.76",
+    "option_c": "13.33",
+    "option_d": "11.76",
+    "correct_option": "C",
+    "solution_text": "CP per article = 15/10 = ₹1.5. SP = ₹1.7. Profit% = (SP - CP)/CP × 100 = (0.2/1.5) × 100 = 13.33%.",
+    "hint_text": "Find CP per article first. Then apply Profit% = (SP - CP)/CP × 100."
+},
+{
+    
+    "topic": "Time & Work",
+    "question_text": "Rani and Adya, working separately, can finish a task in 12 days and 16 days, respectively. They work in stretches of one day alternately. If Rani starts working first, then the task will be completed in:",
+    "option_a": "12 and 1/3 days",
+    "option_b": "13 and 2/3 days",
+    "option_c": "13 and 1/3 days",
+    "option_d": "12 and 2/3 days",
+    "correct_option": "B",
+    "solution_text": "Rani's 1 day work = 1/12. Adya's 1 day work = 1/16. In every 2-day cycle: 1/12 + 1/16 = 7/48. After 12 days (6 cycles): work done = 6 × 7/48 = 42/48 = 7/8. Remaining = 1/8. Day 13 is Rani's turn: she does 1/12 per day. Time to finish 1/8 = (1/8)/(1/12) = 12/8 = 3/2 days. But since 3/2 > 1, she completes on day 13 itself at 1/12 per day → Actually remaining 1/8, Rani needs 12/8 = 1.5 days which is more than 1 day, so on day 13 Rani works full day: work done = 7/8 + 1/12 = 21/24 + 2/24 = 23/24. Day 14 is Adya: remaining = 1/24. Adya does 1/16. Time = (1/24)/(1/16) = 16/24 = 2/3. Total = 13 + 2/3 days.",
+    "hint_text": "Calculate work done per 2-day cycle. Keep adding until close to 1. Then check who works next and what fraction of a day they need."
+},
+{
+    
+    "topic": "Trigonometry",
+    "question_text": "If tan(x+y) × tan(x−y) = 1, then find the value of tan x.",
+    "option_a": "√3",
+    "option_b": "1/√3",
+    "option_c": "1",
+    "option_d": "1/(2√3)",
+    "correct_option": "C",
+    "solution_text": "tan(A) × tan(B) = 1 means tan(A) = cot(B) = tan(90° - B). So A = 90° - B → A + B = 90°. Here: (x+y) + (x-y) = 90° → 2x = 90° → x = 45°. tan 45° = 1.",
+    "hint_text": "If tan(A) × tan(B) = 1, then A + B = 90°. Use this to find x directly."
+},
+{
+    
+    "topic": "Simple Interest",
+    "question_text": "Find the simple interest (in ₹) on ₹2000 at 6.5% per annum rate of interest for the period from 14 February 2023 to 28 April 2023.",
+    "option_a": "24",
+    "option_b": "27",
+    "option_c": "26",
+    "option_d": "25",
+    "correct_option": "C",
+    "solution_text": "Count days: Feb 14 to 28 = 14 days, March = 31 days, April 1 to 28 = 28 days. Total = 73 days = 73/365 year = 1/5 year. SI = 2000 × 6.5/100 × 1/5 = 2000 × 0.013 = ₹26.",
+    "hint_text": "Count days month by month carefully. Use SI = P × R × T / 100, where T is in years (days/365)."
+},
+{
+    
+    "topic": "Probability",
+    "question_text": "The probabilities of A and B hitting a target are 2/3 and 3/4 respectively. What is the probability that exactly one of them hits the target?",
+    "option_a": "7/12",
+    "option_b": "1/4",
+    "option_c": "1/12",
+    "option_d": "5/12",
+    "correct_option": "D",
+    "solution_text": "P(exactly one hits) = P(A hits) × P(B misses) + P(A misses) × P(B hits) = (2/3)(1/4) + (1/3)(3/4) = 2/12 + 3/12 = 5/12.",
+    "hint_text": "Exactly one = (A hits AND B misses) OR (A misses AND B hits). These are mutually exclusive, so add their probabilities."
+},
+{
+    
+    "topic": "Compound Interest",
+    "question_text": "The population of a place increased to 50,000 from 2016 to 2018 at the rate of 6% per annum. The trend continued for the next 2 years. If A is the population in 2016 and B is the population in 2020, then the value of B − A is:",
+    "option_a": "11680",
+    "option_b": "16270",
+    "option_c": "13220",
+    "option_d": "12850",
+    "correct_option": "A",
+    "solution_text": "2016→2018 = 2 years. 50000 = A × (1.06)^2. A = 50000/1.1236 ≈ 44500 (rounded). B = 2020 = 2 years after 2018 = 50000 × (1.06)^2 = 56180. B - A = 56180 - 44500 = 11680.",
+    "hint_text": "Work backwards to find A using CI formula. Then go forward 2 more years from 2018 to get B. Then subtract."
+},
+{
+    
+    "topic": "Statistics",
+    "question_text": "Find the median of the following data (rounded to 2 decimal places): Class: 0-5, 5-10, 10-15, 15-20, 20-25, 25-30, 30-35. Frequency: 3, 5, 4, 2, 7, 6, 5.",
+    "option_a": "21.43",
+    "option_b": "23.40",
+    "option_c": "20.53",
+    "option_d": "18.64",
+    "correct_option": "A",
+    "solution_text": "N = 32, N/2 = 16. Cumulative Frequencies: 3, 8, 12, 14, 21. Median class = 20-25 (first CF ≥ 16 is 21). L=20, CF=14, f=7, h=5. Median = 20 + [(16-14)/7] × 5 = 20 + 1.43 = 21.43.",
+    "hint_text": "Steps: (1) Find N/2. (2) Build cumulative frequency table. (3) Locate median class. (4) Apply formula: M = L + [(N/2 - CF)/f] × h."
+},
+{
+    
+    "topic": "Statistics",
+    "question_text": "Using the empirical formula, calculate the mode for: 17, 20, 21, 18, 25, 28, 24, 22, 16, 24, 25, 24.",
+    "option_a": "25.8",
+    "option_b": "32",
+    "option_c": "25",
+    "option_d": "30.6",
+    "correct_option": "C",
+    "solution_text": "Empirical formula: Mode = 3 × Median − 2 × Mean. Mean = 264/12 = 22. Arranged: 16,17,18,20,21,22,24,24,24,25,25,28. Median = (22+24)/2 = 23. Mode = 3×23 − 2×22 = 69 − 44 = 25.",
+    "hint_text": "Empirical formula: Mode = 3(Median) - 2(Mean). First sort data, find median, then mean. Apply the formula."
+},
+{
+    
+    "topic": "Discount",
+    "question_text": "On Republic Day, a retail store offers a 26% discount on the total purchase. If Manish buys items worth ₹2,050, how much money (in ₹) will he save?",
+    "option_a": "533",
+    "option_b": "544",
+    "option_c": "522",
+    "option_d": "511",
+    "correct_option": "A",
+    "solution_text": "Discount = 26% of 2050 = (26/100) × 2050 = ₹533.",
+    "hint_text": "Savings = Discount% × Marked Price / 100. Direct calculation."
+},
+{
+    
+    "topic": "Geometry",
+    "question_text": "△ABC is inscribed in a circle with centre O. If AB = 21 cm, BC = 20 cm and AC = 29 cm, then what is the length of the circumradius of the triangle?",
+    "option_a": "32.5 cm",
+    "option_b": "13.5 cm",
+    "option_c": "21.5 cm",
+    "option_d": "14.5 cm",
+    "correct_option": "D",
+    "solution_text": "Check: 21² + 20² = 441 + 400 = 841 = 29². Right angle at B. For a right triangle, circumradius R = Hypotenuse/2 = 29/2 = 14.5 cm.",
+    "hint_text": "First check if it is a right triangle using Pythagoras. KEY SHORTCUT: For right triangle, Circumradius = Hypotenuse ÷ 2."
+},
+{
+    
+    "topic": "Simplification",
+    "question_text": "The value of 4³ − 0² + (22/2)² − 8 + 7×6 = ?",
+    "option_a": "224",
+    "option_b": "229",
+    "option_c": "219",
+    "option_d": "218",
+    "correct_option": "C",
+    "solution_text": "4³ = 64, 0² = 0, (22/2)² = 11² = 121, 7×6 = 42. Total = 64 − 0 + 121 − 8 + 42 = 219.",
+    "hint_text": "Apply BODMAS strictly. Solve powers first, then multiplication, then addition/subtraction."
+},
+{
+    
+    "topic": "Ratio & Proportion",
+    "question_text": "A sum of money is distributed among P, Q and R in the proportion 5:3:4. If P gets ₹1,500 more than R, what is Q's share?",
+    "option_a": "₹4,950",
+    "option_b": "₹4,680",
+    "option_c": "₹5,100",
+    "option_d": "₹4,500",
+    "correct_option": "D",
+    "solution_text": "P:Q:R = 5:3:4. P − R = (5−4) = 1 part = ₹1500. Q's share = 3 parts = 3 × 1500 = ₹4500.",
+    "hint_text": "Difference in parts between P and R is 1 part = ₹1500. Find how many parts Q has and multiply."
+},
+{
+    
+    "topic": "Average",
+    "question_text": "The average of first 91 even numbers is:",
+    "option_a": "92",
+    "option_b": "90",
+    "option_c": "91",
+    "option_d": "93",
+    "correct_option": "A",
+    "solution_text": "First 91 even numbers: 2, 4, ..., 182. Average = (2 + 182)/2 = 92. Shortcut: Average of first n even numbers = n + 1.",
+    "hint_text": "SHORTCUT: Average of first n even numbers = n + 1. For n = 91, answer = 92. Memorize this!"
+},
+{
+    
+    "topic": "Problems on Ages",
+    "question_text": "If the average age of three persons is 56 years and their ages are in the ratio 2:5:7, find the age of the youngest person.",
+    "option_a": "20 years",
+    "option_b": "22 years",
+    "option_c": "24 years",
+    "option_d": "26 years",
+    "correct_option": "C",
+    "solution_text": "Total = 3 × 56 = 168. Ratio sum = 2+5+7 = 14. Youngest (ratio 2) = (2/14) × 168 = 24 years.",
+    "hint_text": "Total sum = Average × Count. Youngest's share = (youngest's ratio part / total ratio) × total sum."
+},
+{
+    
+    "topic": "Geometry",
+    "question_text": "If the areas of two similar triangles are in the ratio 121:225, what is the ratio of their corresponding sides?",
+    "option_a": "9:11",
+    "option_b": "11:15",
+    "option_c": "15:13",
+    "option_d": "11:13",
+    "correct_option": "B",
+    "solution_text": "For similar triangles: Area ratio = (Side ratio)². Side ratio = √(121/225) = 11/15.",
+    "hint_text": "KEY RULE: Area ratio = (Side ratio)². So Side ratio = √(Area ratio). Take the square root of both numbers."
+},
+{
+    
+    "topic": "Mensuration",
+    "question_text": "A toy is in the form of a cone mounted on a hemisphere. The radius of both is 36 cm and the height of the cone is 105 cm. Find the total surface area (in cm²) of the toy.",
+    "option_a": "6588π",
+    "option_b": "5240π",
+    "option_c": "6025π",
+    "option_d": "5799π",
+    "correct_option": "A",
+    "solution_text": "Slant height l = √(36² + 105²) = √(1296 + 11025) = √12321 = 111. TSA = πrl + 2πr² = π×36×111 + 2π×36² = 3996π + 2592π = 6588π.",
+    "hint_text": "For combined solid: TSA = Curved surface of cone + Curved surface of hemisphere (base is internal). First find slant height l = √(r² + h²)."
+},
+{
+    
+    "topic": "Problems on Ages",
+    "question_text": "Anil and Beena are friends with an age difference of 5 years. Anil's father Dinesh is three times as old as Anil. Beena is twice as old as her sister Charu. The ages of Dinesh and Charu differ by 45 years. If Beena is older than Anil, find the sum of the present ages of Dinesh and Charu.",
+    "option_a": "78 years",
+    "option_b": "69 years",
+    "option_c": "91 years",
+    "option_d": "100 years",
+    "correct_option": "B",
+    "solution_text": "Let Anil = a. Beena = a+5, Dinesh = 3a, Charu = (a+5)/2. Dinesh − Charu = 3a − (a+5)/2 = 45 → (6a − a − 5)/2 = 45 → 5a − 5 = 90 → a = 19. Dinesh = 57, Charu = 12. Sum = 69.",
+    "hint_text": "Let Anil = a. Express all other ages in terms of a. Use the Dinesh − Charu = 45 equation to solve for a."
+},
+{
+    
+    "topics": ["Circular Race", "Race"],
+    "question_text": "On a 2200 m long circular track, Sarita and Kavita start from the same point and drive in opposite directions at 20 km/hr and 16 km/hr respectively. After how much time will they meet again for the first time?",
+    "option_a": "2 minutes 20 seconds",
+    "option_b": "3 minutes 20 seconds",
+    "option_c": "2 minutes 50 seconds",
+    "option_d": "3 minutes 40 seconds",
+    "correct_option": "B",
+    "solution_text": "Opposite directions → Relative speed = 20 + 16 = 36 km/hr = 36000/60 m/min = 600 m/min. Time = 2200/600 = 11/3 min = 3 min 20 sec.",
+    "hint_text": "Opposite directions on circular track → Add speeds. Time to meet = Track Length / Relative Speed. Convert units carefully."
+},
+{
+    
+    "topic": "Mixture & Alligation",
+    "question_text": "Vessel A has milk:water = 4:5. Vessel B has milk:water = 2:1. x litres of A is mixed with y litres of B to get milk:water = 8:5. Find x:y.",
+    "option_a": "3:10",
+    "option_b": "5:6",
+    "option_c": "2:5",
+    "option_d": "3:4",
+    "correct_option": "A",
+    "solution_text": "Milk fraction: A = 4/9, B = 2/3, Final = 8/13. By alligation: (2/3 − 8/13) : (8/13 − 4/9) = (26−24)/39 : (72−52)/117 = 2/39 : 20/117 = 6 : 20 = 3:10. So x:y = 3:10.",
+    "hint_text": "Find milk fractions for each vessel and the mixture. Apply alligation: ratio = (B's fraction − Final) : (Final − A's fraction)."
+},
+{
+    
+    "topic": "Mensuration",
+    "question_text": "Find the volume (in cm³, rounded to 2 decimal places) of a right circular cone of diameter 12 cm and height 5 cm. [Use π = 22/7]",
+    "option_a": "188.57",
+    "option_b": "197.25",
+    "option_c": "147.23",
+    "option_d": "156.39",
+    "correct_option": "A",
+    "solution_text": "r = 6, h = 5. V = (1/3)πr²h = (1/3) × (22/7) × 36 × 5 = 3960/21 = 188.57 cm³.",
+    "hint_text": "Volume of cone = (1/3)πr²h. Diameter is given, so r = d/2 = 6. Don't forget the 1/3!"
+},
+{
+    
+    "topic": "Mensuration",
+    "question_text": "The height of a right circular cone is 63 cm and its curved surface area is five times the area of its base. What is the volume (in cm³) of the cone? (Use π = 22/7)",
+    "option_a": "12589.10",
+    "option_b": "13540.25",
+    "option_c": "11234.65",
+    "option_d": "10914.75",
+    "correct_option": "D",
+    "solution_text": "CSA = πrl = 5 × πr² → l = 5r. l² = r² + h² → 25r² = r² + 63² → 24r² = 3969 → r² = 165.375. V = (1/3) × (22/7) × 165.375 × 63 = 10914.75 cm³.",
+    "hint_text": "CSA = 5 × Base means l = 5r. Then use l² = r² + h² to find r. Then calculate volume."
+},
+{
+    
+    "topics": [
+    "Simplification",
+    "Surds & Indices"
+    ],
+    "question_text": "∛6859 / ⁴√1296 × 3/57 × 42 = ?",
+    "option_a": "7",
+    "option_b": "16",
+    "option_c": "-3",
+    "option_d": "17",
+    "correct_option": "A",
+    "solution_text": "∛6859 = 19 (since 19³ = 6859). ⁴√1296 = 6 (since 6⁴ = 1296). = (19/6) × (3/57) × 42 = (19/6) × (1/19) × 42 = 42/6 = 7.",
+    "hint_text": "Recognize perfect cubes and 4th powers: 19³ = 6859, 6⁴ = 1296. Then simplify step by step by cancellation."
+},
+{
+    
+    "topic": "Geometry",
+    "question_text": "In triangle HJK, HJ = HK. G is a point on HJ such that HG = GK = JK. What is the degree measure of two-thirds of (∠HGK + ∠GKJ)?",
+    "option_a": "96°",
+    "option_b": "136°",
+    "option_c": "84°",
+    "option_d": "90°",
+    "correct_option": "A",
+    "solution_text": "Let ∠GHK = θ. HG = GK → △HGK is isosceles → ∠GHK = ∠GKH = θ → ∠HGK = 180−2θ. GK = JK → △GKJ is isosceles. ∠KJG = ∠KGJ. Exterior angle: ∠GKJ = 2θ (ext angle of △HGK at K = 2θ... working through: ∠HGK + ∠GKJ = 144°). 2/3 × 144 = 96°.",
+    "hint_text": "Use isosceles triangle property repeatedly. Let ∠GHK = θ. Build angle equations for △HGK and △GKJ separately, then add ∠HGK + ∠GKJ."
+},
+{
+    
+    "topic": "Algebra",
+    "question_text": "Simplify: (5z − 12y)² + (12z + 5y)² − 144z²",
+    "option_a": "25z² + 169y²",
+    "option_b": "23z² + 174y²",
+    "option_c": "30z² + 170y²",
+    "option_d": "169z² + 25y²",
+    "correct_option": "A",
+    "solution_text": "(5z−12y)² = 25z² − 120yz + 144y². (12z+5y)² = 144z² + 120yz + 25y². Sum = 169z² + 169y². Subtract 144z² = 25z² + 169y².",
+    "hint_text": "Expand both squares. Notice the ±120yz middle terms cancel each other. That's the key insight!"
+},
+{
+    
+    "topic": "Geometry",
+    "question_text": "In a circle with centre O, diameter AB is extended to a point C outside the circle. CD is a tangent at D. If CD = 7√3 cm and ∠DBC = 120°, find the diameter of the circle.",
+    "option_a": "16 cm",
+    "option_b": "14 cm",
+    "option_c": "18 cm",
+    "option_d": "20 cm",
+    "correct_option": "B",
+    "solution_text": "∠DBC = 120° → ∠DBA = 60° (supplementary). ∠ADB = 90° (angle in semicircle). In △ABD: ∠DAB = 30°. Let radius = r. Using tangent-secant: CD² = CB × CA. Solving the system with tan/trig: diameter = 14 cm.",
+    "hint_text": "Use: (1) Angle in semicircle = 90°, (2) Tangent-secant rule: CD² = CB × CA. Set up equations with r as the radius."
+},
+{
+    
+    "topic": "Algebra",
+    "question_text": "Simplify: (5z − 7y)² + (7z + 5y)² − 49z²",
+    "option_a": "25z² + 74y²",
+    "option_b": "35z² + 70y²",
+    "option_c": "26z² + 82y²",
+    "option_d": "30z² + 83y²",
+    "correct_option": "A",
+    "solution_text": "(5z−7y)² = 25z²−70yz+49y². (7z+5y)² = 49z²+70yz+25y². Sum = 74z²+74y². Subtract 49z² = 25z²+74y².",
+    "hint_text": "Same pattern as ALG-0002. The ±70yz middle terms cancel. Notice the structure: (az−by)² + (bz+ay)² − b²z² = a²z² + (a²+b²)y²."
+},
+{
+    
+    "topic": "Discount",
+    "question_text": "Murlidhar offers a scheme 'buy 5 water bottles, get 1 free'. What is the effective percentage discount offered? (correct to two decimal places)",
+    "option_a": "13.67%",
+    "option_b": "20.00%",
+    "option_c": "13.33%",
+    "option_d": "16.67%",
+    "correct_option": "D",
+    "solution_text": "Customer gets 6 bottles but pays for 5. Effective discount = 1/6 × 100 = 16.67%.",
+    "hint_text": "Effective discount = Free items / Total items received × 100. Here: 1 free out of 6 total = 16.67%. Common mistake: students write 1/5 × 100 = 20% (wrong!). Denominator is total received, not paid."
+},
+{
+    
+    "topic": "Number System",
+    "question_text": "Which number among 38211, 38121, 32118, and 31128 is divisible by 24?",
+    "option_a": "32118",
+    "option_b": "31128",
+    "option_c": "38121",
+    "option_d": "38211",
+    "correct_option": "B",
+    "solution_text": "24 = 8 × 3. Divisible by 8: last 3 digits of 31128 = 128 ÷ 8 = 16 ✓. Divisible by 3: 3+1+1+2+8 = 15 ÷ 3 = 5 ✓. Answer: 31128.",
+    "hint_text": "Divisibility by 24 = divisible by both 8 AND 3. Rule for 8: last 3 digits divisible by 8. Rule for 3: sum of digits divisible by 3."
+},
+{
+    
+    "topic": "Geometry",
+    "question_text": "In a circle with centre O, arc ABC subtends an angle of 134° at the centre. Chord AB is produced to point P. ∠CBP is equal to:",
+    "option_a": "67°",
+    "option_b": "113°",
+    "option_c": "45°",
+    "option_d": "89°",
+    "correct_option": "A",
+    "solution_text": "Arc ABC subtends 134° at centre. Inscribed angle on remaining arc = 134°/2 = 67°. ∠CAB = 67°. ∠CBP = ∠CAB = 67° (exterior angle / alternate angles).",
+    "hint_text": "Central angle = 2 × Inscribed angle. ∠CBP is exterior angle at B. Use properties of cyclic figures."
+},
+{
+    
+    "topic": "Time, Speed & Distance",
+    "question_text": "P and Q run a 400 m race. P runs at 12 km/hr and gives Q a head start of 20 m. P still beats Q by 13 seconds. Find the speed of Q (rounded to 2 decimal places).",
+    "option_a": "11.38 km/hr",
+    "option_b": "10.29 km/hr",
+    "option_c": "11.61 km/hr",
+    "option_d": "10.87 km/hr",
+    "correct_option": "B",
+    "solution_text": "P's speed = 12 km/hr = 10/3 m/s. P's time for 400m = 400 ÷ (10/3) = 120 sec. Q runs only 380m (400−20 head start). Q finishes 13 sec after P → Q's time = 133 sec. Q's speed = 380/133 m/s = 2.857 m/s = 2.857 × 3.6 = 10.29 km/hr.",
+    "hint_text": "P runs full 400m. Q runs 380m (with head start). Q's time = P's time + 13 sec. Speed = Distance / Time. Convert m/s to km/hr by ×3.6."
+},
+{
+    
+    "topic": "Compound Interest",
+    "question_text": "Two years ago, the population of a town was 9,487,500. It decreases every year at 8%. Find the present population.",
+    "option_a": "9060110",
+    "option_b": "7060320",
+    "option_c": "8070120",
+    "option_d": "8030220",
+    "correct_option": "D",
+    "solution_text": "Present = 9487500 × (1 − 8/100)² = 9487500 × 0.92² = 9487500 × 0.8464 = 8030220.",
+    "hint_text": "Decrease formula: Present = Past × (1 − r/100)^n. Here n = 2 years, r = 8%."
+},
+{
+    
+    "topic": "Average",
+    "question_text": "The average of first 92 even numbers is:",
+    "option_a": "94",
+    "option_b": "91",
+    "option_c": "92",
+    "option_d": "93",
+    "correct_option": "D",
+    "solution_text": "Shortcut: Average of first n even numbers = n + 1. For n = 92, average = 93.",
+    "hint_text": "SHORTCUT: Average of first n even numbers = n + 1. Always! For n = 92, answer = 93."
+},
+{
+    
+    "topic": "Problems on Ages",
+    "question_text": "The ratio of ages of two friends is 4:3, which will become 6:5 after 4 years. What will be the sum of their ages after 22 years from now?",
+    "option_a": "56",
+    "option_b": "58",
+    "option_c": "52",
+    "option_d": "50",
+    "correct_option": "B",
+    "solution_text": "Let ages = 4x and 3x. After 4 years: (4x+4)/(3x+4) = 6/5 → 20x+20 = 18x+24 → x = 2. Present ages = 8 and 6. After 22 years: 30 and 28. Sum = 58.",
+    "hint_text": "Set current ages as 4x and 3x. After 4 years both increase by 4. Cross multiply and solve for x."
+},
+{
+    
+    "topic": "Mixture & Alligation",
+    "question_text": "8 kg of maize costing ₹51/kg is mixed with 9 kg of maize costing ₹68/kg. Find the average price per kg of mixed maize.",
+    "option_a": "₹60",
+    "option_b": "₹58",
+    "option_c": "₹59",
+    "option_d": "₹61",
+    "correct_option": "A",
+    "solution_text": "Weighted average = (8×51 + 9×68) / (8+9) = (408 + 612) / 17 = 1020/17 = ₹60.",
+    "hint_text": "Weighted average = (w1×p1 + w2×p2) / (w1+w2). Simple weighted mean formula."
+},
+{
+    
+    "topic": "Pipe & Cistern",
+    "question_text": "A full tank can be emptied by outlet pipe A in 5.6 hours. Inlet pipe B can fill the empty tank in 7 hours. If A and B are opened alternately for 1 hour each starting with A (tank is full), how long to empty the tank?",
+    "option_a": "48 hours",
+    "option_b": "47 hours",
+    "option_c": "56 hours",
+    "option_d": "55 hours",
+    "correct_option": "B",
+    "solution_text": "A empties: 1/5.6 = 5/28 per hour. B fills: 1/7 = 4/28 per hour. Net emptied per 2-hr cycle = 5/28 − 4/28 = 1/28. After 46 hrs (23 cycles): emptied = 23/28. Remaining = 5/28. Hour 47 is A's turn: A empties 5/28 per hour. Remaining 5/28 empties exactly. Total = 47 hours.",
+    "hint_text": "Find net work per 2-hour cycle (A empties, B fills). Count cycles. Check if the last hour finishes exactly or needs a fraction."
+},
+{
+    
+    "topic": "Mensuration",
+    "question_text": "The ratio between length and breadth of a rectangular park is 3:2 and its perimeter is 120 m. Find the area (in m²) of the park.",
+    "option_a": "864",
+    "option_b": "968",
+    "option_c": "144",
+    "option_d": "454",
+    "correct_option": "A",
+    "solution_text": "l = 3x, b = 2x. Perimeter = 2(3x+2x) = 10x = 120 → x = 12. l = 36, b = 24. Area = 36 × 24 = 864 m².",
+    "hint_text": "From perimeter, find x. Then area = l × b."
+},
+{
+    
+    "topic": "Profit & Loss",
+    "question_text": "A man sells a phone for ₹680 and makes a loss. Had he sold it for ₹1070, his gain would have been double the former loss. Find the cost price (in ₹).",
+    "option_a": "820",
+    "option_b": "800",
+    "option_c": "830",
+    "option_d": "810",
+    "correct_option": "D",
+    "solution_text": "Let CP = x. Loss = x − 680. Gain = 1070 − x. Gain = 2 × Loss → 1070 − x = 2(x − 680) → 1070 − x = 2x − 1360 → 3x = 2430 → x = 810.",
+    "hint_text": "Let CP = x. Write loss and gain in terms of x. Set Gain = 2 × Loss and solve the equation."
+},
+{
+    
+    "topic": "Simple Interest",
+    "question_text": "Find the simple interest (in ₹) on ₹2000 at 6.5% per annum for the period from 13 February 2023 to 27 April 2023.",
+    "option_a": "27",
+    "option_b": "25",
+    "option_c": "26",
+    "option_d": "24",
+    "correct_option": "C",
+    "solution_text": "Days: Feb 13→28 = 15 days, March = 31 days, April 1→27 = 27 days. Total = 73 days = 73/365 = 1/5 year. SI = 2000 × 6.5/100 × 1/5 = ₹26.",
+    "hint_text": "Count days month by month carefully. Same as SI-0001 but with a different start date — same 73 days coincidentally!"
+},
+{
+    
+    "topic": "Ratio & Proportion",
+    "question_text": "If a:b = 2:3 and b:c = 5:7, find the ratio c:a.",
+    "option_a": "15:21",
+    "option_b": "20:21",
+    "option_c": "21:10",
+    "option_d": "10:21",
+    "correct_option": "C",
+    "solution_text": "Make b common. a:b = 10:15, b:c = 15:21. So a:b:c = 10:15:21. c:a = 21:10.",
+    "hint_text": "Find LCM of b's values (3 and 5 → LCM=15). Scale both ratios so b=15. Then read off c:a."
+},
+{
+    
+    "topic": "Statistics",
+    "question_text": "Ages of students (in years): 12, 13, 16, 18, 14, 19, 13, 17, 15, 11. Find the median age.",
+    "option_a": "13.5",
+    "option_b": "14",
+    "option_c": "15",
+    "option_d": "14.5",
+    "correct_option": "D",
+    "solution_text": "Arranged: 11,12,13,13,14,15,16,17,18,19. n = 10 (even). Median = (5th + 6th)/2 = (14+15)/2 = 14.5.",
+    "hint_text": "Arrange in ascending order first. For even n: Median = average of (n/2)th and (n/2 + 1)th terms."
+},
+{
+    
+    "topic": "Percentage",
+    "question_text": "Amit gets 6% increase in sales in year 1 and 20% in year 2. His present sales are ₹2,54,400. What were his sales two years ago?",
+    "option_a": "₹2,00,000",
+    "option_b": "₹1,80,000",
+    "option_c": "₹2,12,000",
+    "option_d": "₹2,40,000",
+    "correct_option": "A",
+    "solution_text": "Original × 1.06 × 1.20 = 254400. Original = 254400 / 1.272 = ₹2,00,000.",
+    "hint_text": "Work backwards: divide present value by both multipliers. 254400 ÷ 1.20 ÷ 1.06 = 2,00,000."
+},
+{
+    
+    "topic": "Statistics",
+    "question_text": "Find the median: Class: 0-20, 20-40, 40-60, 60-80, 80-100. Frequency: 9, 16, 24, 15, 4.",
+    "option_a": "55",
+    "option_b": "58",
+    "option_c": "47.5",
+    "option_d": "50",
+    "correct_option": "C",
+    "solution_text": "N = 68, N/2 = 34. CF: 9, 25, 49. Median class = 40-60 (CF first ≥ 34 is 49). L=40, CF=25, f=24, h=20. Median = 40 + [(34-25)/24] × 20 = 40 + 7.5 = 47.5.",
+    "hint_text": "Build CF table. Locate median class where CF first crosses N/2. Apply: M = L + [(N/2 - CF)/f] × h."
+},
+{
+    
+    "topic": "Problems on Ages",
+    "question_text": "The present ages of Sweeta and Suman are in the ratio 4:5. Six years back, the ratio was 2:3. What is Sweeta's present age?",
+    "option_a": "16 years",
+    "option_b": "12 years",
+    "option_c": "8 years",
+    "option_d": "20 years",
+    "correct_option": "B",
+    "solution_text": "Let ages = 4x and 5x. Six years ago: (4x−6)/(5x−6) = 2/3 → 12x−18 = 10x−12 → 2x = 6 → x = 3. Sweeta = 4×3 = 12.",
+    "hint_text": "Set current ages = 4x and 5x. Subtract 6 for past. Cross multiply and solve."
+},
+{
+    
+    "topic": "Ratio & Proportion",
+    "question_text": "Adi and Dia together have ₹1,440. If 3/10 of Adi's amount equals 3/5 of Dia's amount, how much does Dia have?",
+    "option_a": "₹480",
+    "option_b": "₹540",
+    "option_c": "₹464",
+    "option_d": "₹512",
+    "correct_option": "A",
+    "solution_text": "3/10 × Adi = 3/5 × Dia → Adi/Dia = (3/5)/(3/10) = 2. Adi:Dia = 2:1. Dia = (1/3) × 1440 = ₹480.",
+    "hint_text": "From the equation, find Adi:Dia ratio. Then use total = ₹1440 to find Dia's share."
+},
+{
+    
+    "topic": "Mensuration",
+    "question_text": "The diameter of the base of a cone is 56 cm and its curved surface area is 3080 cm². Find its volume (in cm³). (Use π = 22/7)",
+    "option_a": "17248",
+    "option_b": "15391",
+    "option_c": "14670",
+    "option_d": "12250",
+    "correct_option": "A",
+    "solution_text": "r = 28. CSA = πrl = 3080 → (22/7)×28×l = 3080 → 88l = 3080 → l = 35. h = √(35²−28²) = √(1225−784) = √441 = 21. V = (1/3)×(22/7)×784×21 = 17248 cm³.",
+    "hint_text": "From CSA find l. Then h = √(l²−r²). Then volume = (1/3)πr²h."
+},
+{
+    
+    "topic": "Algebra",
+    "question_text": "If x = 4 + √6 and y = 4 − √6, find x² + y².",
+    "option_a": "43",
+    "option_b": "42",
+    "option_c": "51",
+    "option_d": "44",
+    "correct_option": "D",
+    "solution_text": "x+y = 8. xy = (4+√6)(4−√6) = 16−6 = 10. x²+y² = (x+y)² − 2xy = 64 − 20 = 44.",
+    "hint_text": "SHORTCUT: x²+y² = (x+y)² − 2xy. Much faster than squaring each. Find x+y and xy first."
+},
+{
+    
+    "topic": "Number System",
+    "question_text": "The LCM of 2³×9²×13, 2²×13²×19 and 9³×13²×19² is:",
+    "option_a": "2³×9²×13²×19",
+    "option_b": "2³×9³×13²×19²",
+    "option_c": "2²×9²×13²×19³",
+    "option_d": "2²×9³×13×19²",
+    "correct_option": "B",
+    "solution_text": "LCM = highest power of each factor. 2: max(3,2,0)=3. 9: max(2,0,3)=3. 13: max(1,2,2)=2. 19: max(0,1,2)=2. LCM = 2³×9³×13²×19².",
+    "hint_text": "LCM takes the HIGHEST power of each prime/factor appearing across all numbers. Go factor by factor."
+},
+{
+    
+    "topics": [
+    "Simplification",
+    "Surds & Indices"
+    ],
+    "question_text": "(a^5 × b^3 × c^7) / (a^4 × b^8 × c^9) in simplified form is:",
+    "option_a": "a × b^-5 × c^-2",
+    "option_b": "a^-3 × b^-10 × c^-4",
+    "option_c": "a^-1 × b^4 × c^-5",
+    "option_d": "a^6 × b^6 × c^-4",
+    "correct_option": "A",
+    "solution_text": "a^(5-4)=a¹, b^(3-8)=b^-5, c^(7-9)=c^-2. Answer = a × b^-5 × c^-2.",
+    "hint_text": "Divide same base = subtract exponents. Apply to each base: a, b, c separately."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Six letters P, Q, S, T, U and V are on different faces of a dice. Position 1: V on top, Q on front, T on right. Position 2: S on top, U on front, T on right. Which letter is on the face opposite to T?",
+    "option_a": "V",
+    "option_b": "P",
+    "option_c": "S",
+    "option_d": "U",
+    "correct_option": "B",
+    "solution_text": "T is visible in both positions. Faces visible with T in position 1: V, Q. Faces visible with T in position 2: S, U. So V, Q, S, U are all adjacent to T. Remaining letter = P. P is opposite to T.",
+    "hint_text": "Faces that appear WITH T in any position cannot be opposite to T. List all faces seen alongside T. Whatever letter is left = opposite to T."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Arrange in logical order: 1. Design, 2. Test, 3. Conceptualize, 4. Develop, 5. Implement",
+    "option_a": "1, 4, 5, 3, 2",
+    "option_b": "3, 1, 4, 2, 5",
+    "option_c": "3, 5, 2, 4, 1",
+    "option_d": "3, 1, 5, 4, 2",
+    "correct_option": "B",
+    "solution_text": "Logical order: Conceptualize (3) → Design (1) → Develop (4) → Test (2) → Implement (5). Answer: 3,1,4,2,5.",
+    "hint_text": "Think of any product/project lifecycle. You think first (conceptualize), then plan (design), build (develop), check (test), then launch (implement)."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Select the number from the options that can replace (?) in the series: 9, 5, 6, 10.5, 23, ?",
+    "option_a": "80",
+    "option_b": "90",
+    "option_c": "60",
+    "option_d": "50",
+    "correct_option": "C",
+    "solution_text": "Pattern: ×0.5+0.5, ×1+1, ×1.5+1.5, ×2+2, ×2.5+2.5. Verify: 9×0.5+0.5=5, 5×1+1=6, 6×1.5+1.5=10.5, 10.5×2+2=23, 23×2.5+2.5=60.",
+    "hint_text": "Try multiply + add pattern. Notice both the multiplier and addend increase by 0.5 each step."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Select the set where numbers relate the same way as (215, 185, 135) and (276, 246, 196).",
+    "option_a": "(238, 208, 158)",
+    "option_b": "(269, 229, 199)",
+    "option_c": "(294, 264, 224)",
+    "option_d": "(255, 235, 205)",
+    "correct_option": "A",
+    "solution_text": "215−185=30, 185−135=50. 276−246=30, 246−196=50. Pattern: differences are 30 and 50. Check A: 238−208=30, 208−158=50. ✓",
+    "hint_text": "Find the difference between first-second and second-third numbers. The pattern should hold for the correct answer."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Each digit in 5238641 is arranged in ascending order from left to right. How many digits remain in the same position?",
+    "option_a": "None",
+    "option_b": "One",
+    "option_c": "Two",
+    "option_d": "Three",
+    "correct_option": "C",
+    "solution_text": "Original: 5,2,3,8,6,4,1 (positions 1-7). Ascending: 1,2,3,4,5,6,8. Position 2: original=2, ascending=2 ✓. Position 3: original=3, ascending=3 ✓. Two digits remain unchanged.",
+    "hint_text": "Write original and ascending versions aligned by position. Compare digit by digit."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Statements: A < B ≥ C > D and C > E ≥ F = G. Which conclusion is definitely true? 1. G > C  2. D < F  3. A < E  4. B > G",
+    "option_a": "G > C",
+    "option_b": "D < F",
+    "option_c": "A < E",
+    "option_d": "B > G",
+    "correct_option": "D",
+    "solution_text": "Chain: B ≥ C > E ≥ F = G. So B ≥ C > G → B > G is definitely true.",
+    "hint_text": "Chain the inequalities step by step. B≥C and C>E≥G means B>G is guaranteed. For others, direction cannot be confirmed."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Code: 'fire in mountain' = 'si ph bo'. Statement II: 'ice and fire' = 'si yu ca'. Which statement is sufficient to find the code for 'fire'?",
+    "option_a": "Statement I alone",
+    "option_b": "Statement II alone",
+    "option_c": "Neither sufficient",
+    "option_d": "Both together sufficient",
+    "correct_option": "B",
+    "solution_text": "From question: fire/in/mountain = si/ph/bo. From Statement II: ice/and/fire = si/yu/ca. 'fire' is common in question + Statement II. 'si' appears in both. In Statement II, si must map to 'fire'. Statement II alone is sufficient.",
+    "hint_text": "Find the word common to the question sentence and Statement II. The code common to both sentences belongs to that common word."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Cause: Many people in City X received two electricity bills this month. Effect I: Electricity Board published power shutdown areas. Effect II: Commissioner clarified glitch would be resolved in 48 hours. Effect III: Long queues outside electricity offices.",
+    "option_a": "Only II",
+    "option_b": "Both I and II",
+    "option_c": "Only I",
+    "option_d": "Both II and III",
+    "correct_option": "D",
+    "solution_text": "Effect I (power shutdowns) is unrelated to billing error. Effect II (official response to glitch) is a logical administrative consequence. Effect III (queues) would logically happen as people come to complain/clarify.",
+    "hint_text": "Ask: does this effect logically follow from a billing error? Power shutdowns don't. Official clarification and customer queues do."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "All sheeps are cows. Some cows are horses. All horses are jackals. Conclusions: I. Some jackals are cows. II. Some horses are sheeps.",
+    "option_a": "Both I and II follow",
+    "option_b": "Only II follows",
+    "option_c": "Only I follows",
+    "option_d": "Neither follows",
+    "correct_option": "C",
+    "solution_text": "Some cows are horses + All horses are jackals → Some cows are jackals → Some jackals are cows (conversion). Conclusion I follows. For II: All sheeps are cows, but those specific cows may not be among 'some cows are horses'. Conclusion II doesn't follow.",
+    "hint_text": "Draw Venn diagrams. Conclusion I: trace cows→horses→jackals. Conclusion II: sheeps are inside cows, but the 'some cows = horses' region may not overlap with sheeps."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "P, Q, R, S, T, U and V each have exam on different days Mon-Sun. Q = Saturday. Only two people between S and Q. R before S but after P. U immediately after T. On which day does V have exam?",
+    "option_a": "Saturday",
+    "option_b": "Sunday",
+    "option_c": "Friday",
+    "option_d": "Thursday",
+    "correct_option": "B",
+    "solution_text": "Q = Sat. Two people between S and Q → S = Wednesday. P before R before S: P=Mon, R=Tue, S=Wed. T-U consecutive from remaining (Thu, Fri, Sun): T=Thu, U=Fri. Remaining = V = Sunday.",
+    "hint_text": "Fix Q=Saturday. Count backwards 2 people to place S. Place P, R in order before S. T and U are consecutive pair. Whatever day remains = V."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Which number-pair does NOT follow the pattern: 1. 18-198,  2. 13-144,  3. 31-341,  4. 22-242?",
+    "option_a": "18-198",
+    "option_b": "13-144",
+    "option_c": "31-341",
+    "option_d": "22-242",
+    "correct_option": "B",
+    "solution_text": "Pattern = first number × 11. 18×11=198 ✓, 31×11=341 ✓, 22×11=242 ✓. But 13×11=143 ≠ 144. Odd one out = 13-144.",
+    "hint_text": "Try ×11 for each pair. One pair will not fit. That's your answer."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "U is father of N. N is sister of T. T is wife of I. I is son of L. How is U related to L?",
+    "option_a": "Son's wife's sister",
+    "option_b": "Son's wife's father",
+    "option_c": "Son's wife",
+    "option_d": "Son's wife's mother",
+    "correct_option": "B",
+    "solution_text": "L's son = I. I's wife = T. T's sister = N. N's father = U. Since N and T are sisters, they share the same father. U = Father of T = Father of I's wife = L's son's wife's father.",
+    "hint_text": "Trace from L: L→I(son)→T(wife)→N(sister)→U(father). U is the father of T who is the wife of L's son."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Which word-pair does NOT belong? 1. Temple-Pray, 2. Theatre-Movies, 3. Park-Swim, 4. Restaurant-Dinner",
+    "option_a": "Temple-Pray",
+    "option_b": "Theatre-Movies",
+    "option_c": "Park-Swim",
+    "option_d": "Restaurant-Dinner",
+    "correct_option": "C",
+    "solution_text": "Temple=primary purpose is to pray. Theatre=primary purpose is movies. Restaurant=primary purpose is dining. Park is NOT primarily for swimming. You swim in a pool/lake.",
+    "hint_text": "Check: is the activity the PRIMARY purpose of that place? Parks are for walks/recreation, not swimming."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "A+B=A is mother of B, A-B=A is brother of B, A×B=A is wife of B, A÷B=A is father of B. How is U related to Z if 'U + V ÷ W − Y × Z'?",
+    "option_a": "Wife's Father's Sister",
+    "option_b": "Wife's Mother's Mother",
+    "option_c": "Wife's Mother's Sister",
+    "option_d": "Wife's Father's Mother",
+    "correct_option": "D",
+    "solution_text": "U+V: U is mother of V. V÷W: V is father of W. W-Y: W is brother of Y. Y×Z: Y is wife of Z. Trace from Z: Z's wife=Y, Y's brother=W, W's father=V, V's mother=U. So U = Z's wife's brother's father's mother = Wife's Father's Mother.",
+    "hint_text": "Convert each symbol to relationship word. Trace the chain step by step from Z back to U."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Select the number that replaces (?) in the series: 98, 50, 26, 14, ?, 5",
+    "option_a": "10",
+    "option_b": "6",
+    "option_c": "7",
+    "option_d": "8",
+    "correct_option": "D",
+    "solution_text": "Pattern: (n + 2) / 2 = next term. 98→(98+2)/2=50. 50→(50+2)/2=26. 26→(26+2)/2=14. 14→(14+2)/2=8. 8→(8+2)/2=5. Answer = 8.",
+    "hint_text": "Try: add 2 to current term, then divide by 2. Verify with each step."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Arrange in logical order: 1. Delivery, 2. Finished Paper, 3. Dry, 4. Pulp, 5. Press",
+    "option_a": "4, 5, 3, 2, 1",
+    "option_b": "2, 5, 4, 3, 1",
+    "option_c": "4, 1, 2, 5, 3",
+    "option_d": "5, 4, 2, 3, 1",
+    "correct_option": "A",
+    "solution_text": "Paper-making process: Pulp(4) → Press(5) → Dry(3) → Finished Paper(2) → Delivery(1).",
+    "hint_text": "Think paper making: wood pulp is processed, pressed, dried, becomes finished paper, then delivered."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "A=÷, B=×, C=+, D=−. Solve: 55 B 5 D 13 B 2 C 14 A 7 D 15 B 5 C 102 A 2 C 15 = ?",
+    "option_a": "291",
+    "option_b": "203",
+    "option_c": "177",
+    "option_d": "242",
+    "correct_option": "D",
+    "solution_text": "After substitution: 55×5 − 13×2 + 14÷7 − 15×5 + 102÷2 + 15 = 275 − 26 + 2 − 75 + 51 + 15 = 242.",
+    "hint_text": "First substitute the symbols. Then apply BODMAS: do × and ÷ before + and −."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Fill in the blank: Rashid was not able to _____ the pain after the accident.",
+    "option_a": "beer",
+    "option_b": "bare",
+    "option_c": "buyer",
+    "option_d": "bear",
+    "correct_option": "D",
+    "solution_text": "'Bear' = to endure/tolerate. 'Bare' = uncovered. 'Beer' = a drink. Context requires enduring pain = bear.",
+    "hint_text": "Homophone alert! 'Bear' has two meanings: (1) the animal, (2) to tolerate/endure. Which meaning fits here?"
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Change to passive voice: 'Did you hear that noise?'",
+    "option_a": "Has that noise been heard by you?",
+    "option_b": "Wasn't that noise heard by you?",
+    "option_c": "Is that noise heard by you?",
+    "option_d": "Was that noise heard by you?",
+    "correct_option": "D",
+    "solution_text": "Active: Did + Subject + V1 (past interrogative). Passive: Was/Were + Object + V3 + by + Subject. 'Did you hear' → 'Was that noise heard by you?'",
+    "hint_text": "Passive of 'Did + V1' = 'Was/Were + V3'. Maintain past tense and interrogative structure."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "One-word substitute for: 'One who cannot make a mistake'",
+    "option_a": "Inevitable",
+    "option_b": "Infallible",
+    "option_c": "Impregnable",
+    "option_d": "Inimitable",
+    "correct_option": "B",
+    "solution_text": "Infallible = incapable of making errors. Inevitable = unavoidable. Impregnable = cannot be captured. Inimitable = unique/matchless.",
+    "hint_text": "Break it down: In + fallible. 'Fallible' = capable of error. So 'Infallible' = incapable of error. The In- prefix negates!"
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Select the most appropriate ANTONYM of: Enhance",
+    "option_a": "Enrich",
+    "option_b": "Impair",
+    "option_c": "Miracle",
+    "option_d": "Relevance",
+    "correct_option": "B",
+    "solution_text": "Enhance = to improve/increase. Antonym = Impair (to weaken/damage/worsen).",
+    "hint_text": "Enhance = make better. Opposite = make worse = Impair. Don't confuse with 'Enrich' which is a synonym."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Select the most appropriate ANTONYM of: Generous",
+    "option_a": "Magnanimous",
+    "option_b": "Altruistic",
+    "option_c": "Selfish",
+    "option_d": "Benevolent",
+    "correct_option": "C",
+    "solution_text": "Generous = giving freely. Antonym = Selfish. Magnanimous, Altruistic, Benevolent are all synonyms of Generous.",
+    "hint_text": "Generous = giving to others. Opposite = keeping for yourself = Selfish."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Change to reported speech: 'I am determined to publish my findings,' the scientist asserted confidently.",
+    "option_a": "The scientist confidently asserted that she is determined to publish her findings.",
+    "option_b": "The scientist confidently asserted that she would be determined to publish her findings.",
+    "option_c": "The scientist confidently asserted that she was determined to publish her findings.",
+    "option_d": "The scientist confidently asserted that she had determined to publish her findings.",
+    "correct_option": "C",
+    "solution_text": "Reporting verb 'asserted' is past tense. So 'am' (present) → 'was' (past). Correct: 'she was determined to publish her findings.'",
+    "hint_text": "When reporting verb is past, shift tenses back: am/is → was, will → would, have → had."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Fill in the blank with correct preposition: 'Luck does not always favour us, so we must always depend _______ our own efforts for success.'",
+    "option_a": "in",
+    "option_b": "for",
+    "option_c": "at",
+    "option_d": "upon",
+    "correct_option": "D",
+    "solution_text": "Fixed collocation: 'depend on' or 'depend upon'. 'Upon' is correct here.",
+    "hint_text": "Memorize fixed prepositions: depend ON/UPON, rely ON, insist ON, concentrate ON."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Complete the dialogue: 'I am so nervous. I don't think I should make the speech tomorrow.' — 'No. You are just getting _____. You have prepared for this.'",
+    "option_a": "hot feet",
+    "option_b": "cold feet",
+    "option_c": "cold hand",
+    "option_d": "cold foot",
+    "correct_option": "B",
+    "solution_text": "'Cold feet' = to feel nervous or hesitant at the last moment before doing something.",
+    "hint_text": "Idiom: 'cold feet' = last-minute nervousness. Very common English idiom. Note: it's always COLD FEET (plural), not foot."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "What does the underlined idiom mean? 'The team decided to pull out all the stops for their upcoming presentation.'",
+    "option_a": "To do everything possible to make something successful",
+    "option_b": "Give up easily without thinking",
+    "option_c": "Keep things simple and straightforward",
+    "option_d": "Wait patiently for a favourable time",
+    "correct_option": "A",
+    "solution_text": "'Pull out all the stops' = to use every means available / make maximum effort to achieve something.",
+    "hint_text": "Origin: organ pipe music — pulling all stops creates maximum volume. Meaning = maximum effort. Always a positive action."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Select the most appropriate ANTONYM of: Accumulated",
+    "option_a": "Bunched",
+    "option_b": "Garnered",
+    "option_c": "Spared",
+    "option_d": "Scattered",
+    "correct_option": "D",
+    "solution_text": "Accumulated = collected/gathered. Antonym = Scattered (spread out/dispersed). Garnered is a synonym.",
+    "hint_text": "Accumulated = brought together. Opposite = spread apart = Scattered."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Select the correct homophone: 'We should _________ away all prejudices to live in harmony.'",
+    "option_a": "cast",
+    "option_b": "caste",
+    "option_c": "coast",
+    "option_d": "cost",
+    "correct_option": "A",
+    "solution_text": "'Cast away' = to throw aside / discard. 'Caste' = social class hierarchy. Context = throwing away prejudices = cast away.",
+    "hint_text": "Cast (verb) = to throw. 'Cast away' is a phrasal verb = discard. 'Caste' is a noun = social class. Never confuse them!"
+},
+{
+    
+    "topic": "Common",
+    "question_text": "What was the status of the agricultural sector in India before the Green Revolution?",
+    "option_a": "Use of old technology and absence of required infrastructure",
+    "option_b": "Use of advanced technology and high productivity",
+    "option_c": "Use of advanced technology and dependency on rainfall",
+    "option_d": "Use of traditional technology and abundance of required infrastructure",
+    "correct_option": "A",
+    "solution_text": "Before the Green Revolution (pre-1960s), Indian agriculture used primitive tools, lacked HYV seeds, had no proper irrigation infrastructure, and was highly dependent on monsoon.",
+    "hint_text": "Think pre-1960s India: no fertilizers, old ploughs, no irrigation = old technology + poor infrastructure."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "What is the name of the ion with a charge of −1?",
+    "option_a": "Monovalent ion",
+    "option_b": "Polyvalent ion",
+    "option_c": "Anion",
+    "option_d": "Cation",
+    "correct_option": "C",
+    "solution_text": "Anion = negatively charged ion (gained electrons). Cation = positively charged ion.",
+    "hint_text": "Memory trick: AN-ion = A Negative ion. CAT-ion = positive (cats are energetic = positive energy). Charge −1 = Anion."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Who mentioned ecosystem as 'the basic unit in ecology' in 1956?",
+    "option_a": "Francis Evans",
+    "option_b": "Aldo Leopold",
+    "option_c": "John Harper",
+    "option_d": "Rachel Carson",
+    "correct_option": "A",
+    "solution_text": "Francis Evans (1956) called ecosystem the basic unit in ecology. Note: A.G. Tansley coined the term 'ecosystem' in 1935 — different fact!",
+    "hint_text": "Remember: Tansley coined 'ecosystem' (1935). Evans called it 'basic unit of ecology' (1956). Two different scientists, two different facts!"
+},
+{
+    
+    "topic": "Common",
+    "question_text": "In which case did the Supreme Court rule that 'Parliament cannot take away or abridge Fundamental Rights for implementing Directive Principles'?",
+    "option_a": "Indira Sawhney Case, 1992",
+    "option_b": "Keshvanand Bharti Case, 1973",
+    "option_c": "Golak Nath Case, 1967",
+    "option_d": "Minerva Mills Case, 1980",
+    "correct_option": "C",
+    "solution_text": "Golak Nath Case 1967: Parliament cannot amend Fundamental Rights. Keshvananda Bharti 1973: Basic Structure Doctrine. Minerva Mills 1980: Balance between FRs and DPs.",
+    "hint_text": "Landmark cases trick — G-K-M in order: Golak Nath (1967)=FRs unamendable, Keshvananda (1973)=Basic Structure, Minerva Mills (1980)=Balance FRs+DPs."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "A: The first battle of Panipat was one of the decisive battles of India. R: It brought into power a new band of invaders called Mughals. Which is correct?",
+    "option_a": "A and R true, R is NOT explanation of A",
+    "option_b": "A and R true, R IS the correct explanation of A",
+    "option_c": "R true, A false",
+    "option_d": "A true, R false",
+    "correct_option": "B",
+    "solution_text": "First Battle of Panipat (1526): Babur defeated Ibrahim Lodi → Mughal Empire established. A is true (decisive battle) and R is true AND directly explains why it was decisive.",
+    "hint_text": "1526 = Babur vs Ibrahim Lodi = Mughals came to power. A is true. R is true AND is the reason for A being decisive."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Which Constitutional Amendment Act made the President bound by the advice of the Council of Ministers headed by the PM?",
+    "option_a": "46th",
+    "option_b": "42nd",
+    "option_c": "48th",
+    "option_d": "40th",
+    "correct_option": "B",
+    "solution_text": "42nd Constitutional Amendment, 1976 (during Emergency) made the President's action on CoM advice mandatory.",
+    "hint_text": "42nd Amendment = Mini Constitution (1976). Key changes: President MUST act on CoM advice, added Fundamental Duties, etc. Remember: 42 = biggest amendment."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Which of the following is a monoatomic gas?",
+    "option_a": "Oxygen",
+    "option_b": "Hydrogen",
+    "option_c": "Xenon",
+    "option_d": "Chlorine",
+    "correct_option": "C",
+    "solution_text": "All Noble Gases (He, Ne, Ar, Kr, Xe, Rn) are monoatomic. O₂, H₂, Cl₂ are diatomic.",
+    "hint_text": "Monoatomic = exists as single atom = Noble Gases. Xenon (Xe) is a noble gas. All others listed are diatomic molecules."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Rotating columns of air over water bodies, generally less severe than land tornadoes, are known as:",
+    "option_a": "Waterspouts",
+    "option_b": "Hurricanes",
+    "option_c": "Typhoons",
+    "option_d": "Squalls",
+    "correct_option": "A",
+    "solution_text": "Waterspouts = rotating columns of air/water over water bodies. Weaker than land tornadoes. Hurricanes/Typhoons are large tropical storms.",
+    "hint_text": "Water + spout = Waterspout. The name describes it perfectly — it is a rotating column over WATER."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "The Bharatmala project comes under which Ministry of India?",
+    "option_a": "Ministry of Ports, Shipping and Waterways",
+    "option_b": "Ministry of Environment and Forest",
+    "option_c": "Ministry of Home Affairs",
+    "option_d": "Ministry of Road Transport and Highways",
+    "correct_option": "D",
+    "solution_text": "Bharatmala Pariyojana is a highway development program under the Ministry of Road Transport and Highways.",
+    "hint_text": "Bharatmala = roads/highways project. Roads = Ministry of Road Transport and Highways. Easy logic!"
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Who was the first Home Minister of Independent India?",
+    "option_a": "Maulana Abdul Kalam Azad",
+    "option_b": "Baldev Singh",
+    "option_c": "Sardar Vallabh Bhai Patel",
+    "option_d": "Humayun Kabir",
+    "correct_option": "C",
+    "solution_text": "Sardar Vallabh Bhai Patel = First Home Minister of India + First Deputy PM. Known as the Iron Man of India for unifying princely states.",
+    "hint_text": "Iron Man of India = Sardar Patel = First Home Minister. Very high-frequency SSC fact. Memorize it!"
+},
+{
+    
+    "topic": "Common",
+    "question_text": "What is the primary advantage of being able to insert and delete slides in MS PowerPoint?",
+    "option_a": "To apply different templates to individual slides",
+    "option_b": "To enable addition of multimedia content",
+    "option_c": "To allow dynamic content adjustment and organisation",
+    "option_d": "To enhance slide transitions",
+    "correct_option": "C",
+    "solution_text": "Inserting/deleting slides allows dynamic reorganization and flexible content management.",
+    "hint_text": "The purpose of adding/removing slides = flexibility = dynamic content adjustment and organisation."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Which technology allows real-time voice and video communication over the internet directly in a web browser without extra software?",
+    "option_a": "FTP",
+    "option_b": "Email",
+    "option_c": "VoIP",
+    "option_d": "WebRTC",
+    "correct_option": "D",
+    "solution_text": "WebRTC (Web Real-Time Communication) = real-time audio/video in browser without plugins.",
+    "hint_text": "WebRTC = Web Real-Time Communication. Key: works IN the browser itself without extra software. VoIP needs software."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Which type of virus infects the boot sector of floppy disks or the Master Boot Record (MBR) of hard disks?",
+    "option_a": "Macro Virus",
+    "option_b": "Resident Virus",
+    "option_c": "Direct Action Virus",
+    "option_d": "Boot Sector Virus",
+    "correct_option": "D",
+    "solution_text": "Boot Sector Virus infects MBR or boot sector and activates before the OS loads.",
+    "hint_text": "Boot Sector Virus = attacks the BOOT sector. Self-explanatory name!"
+},
+{
+    
+    "topic": "Common",
+    "question_text": "RAM is volatile memory — it loses data when power is off. ROM stores essential instructions for booting. Both statements are:",
+    "option_a": "Both correct",
+    "option_b": "Neither correct",
+    "option_c": "Only 2nd correct",
+    "option_d": "Only 1st correct",
+    "correct_option": "A",
+    "solution_text": "Both correct. RAM = volatile (loses data without power). ROM = non-volatile, stores BIOS/firmware for booting.",
+    "hint_text": "RAM = temporary, volatile. ROM = permanent, stores boot instructions (BIOS). Both definitions are textbook correct."
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Which type of ROM can be electronically erased and reprogrammed multiple times?",
+    "option_a": "Mask ROM",
+    "option_b": "EPROM",
+    "option_c": "PROM",
+    "option_d": "EEPROM",
+    "correct_option": "D",
+    "solution_text": "EEPROM = Electrically Erasable Programmable ROM. Can be erased and rewritten electronically.",
+    "hint_text": "EEPROM = Electrically Erasable. EPROM uses UV light (not electrical). The extra E at the start stands for Electrically!"
+},
+{
+    
+    "topic": "Common",
+    "question_text": "Which keyboard shortcut adds bullets in MS Word 2010?",
+    "option_a": "Ctrl + Shift + L",
+    "option_b": "Ctrl + L",
+    "option_c": "Ctrl + Alt + L",
+    "option_d": "Shift + L",
+    "correct_option": "A",
+    "solution_text": "Ctrl + Shift + L = Apply Bullet List formatting in MS Word.",
+    "hint_text": "L = List. Ctrl+Shift+L = bullet List. Ctrl+L alone = Left align. Don't confuse the two!"
+},
+{
+    
+    "topic": "Common",
+    "question_text": "What is the primary reason DRAM needs to be refreshed periodically?",
+    "option_a": "To clear unused data",
+    "option_b": "To allow CPU to access new data",
+    "option_c": "To prevent data corruption from magnetic fields",
+    "option_d": "To recharge the capacitors storing data bits",
+    "correct_option": "D",
+    "solution_text": "DRAM stores data in capacitors that leak charge over time. Periodic refresh recharges them to preserve data.",
+    "hint_text": "DRAM = Dynamic RAM. Dynamic because it needs constant refreshing. Capacitors leak → must recharge → that's the refresh!"
+}
+]
