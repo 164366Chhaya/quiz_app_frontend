@@ -8,6 +8,13 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get('token');
+    if (token) {
+      localStorage.setItem('jwt', token);
+      window.history.replaceState({}, '', '/dashboard');
+    }
+
     API.get('/api/auth/me')
       .then(res => setUser(res.data))
       .catch(() => setUser(null))
